@@ -1,0 +1,851 @@
+#menulistener {
+    position: fixed;
+    display: flex;
+    bottom: 25px;
+    left: 25px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #a3b3ed;
+    border-radius: 25px;
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+#menulistener:hover {
+    border-radius: 30px; 
+    border: 2px solid #ff3942;
+    width: 160px;
+    height: 50px;
+    left: 25px;
+    bottom: 25px;
+    transition: 0.5s;
+}
+
+#menulistener #menuListText1 {
+    margin-top: -8px;
+
+    font-size: 36pt;
+    margin-left: 12px; 
+    opacity: 1;
+    transition: 0.5s;
+    transition-delay: 0.3s;
+    color: white;
+}
+
+#menulistener #menuListText2 {
+    font-size: 14pt;
+    opacity: 0;
+    transition: 0s;
+}
+
+#menulistener:hover #menuListText1 {
+    opacity: 0;
+    transition: 0s;
+}
+
+#menulistener:hover #menuListText2 {
+    margin-left: -35px; 
+    opacity: 1;
+    transition: 0.5s;
+    transition-delay: 0.3s;
+}
+
+#menulistener p {
+    color: rgb(255, 255, 255);
+    font-family: 'Exo 2', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 14pt;
+    width: max-content;
+    height: max-content;
+    margin: auto;
+}
+
+#menuListenerCheck {
+    display: none;
+}
+  
+#menu {
+    position: fixed;
+    width: 20%;
+    height: 100vh;
+    top: 0;
+    left: calc(-20% - 6px);
+    background: #101010;
+    transition: 0.5s;
+    overflow-y: auto;
+}
+
+#menu::-webkit-scrollbar{
+    width: 6px;
+}
+
+#menu::-webkit-scrollbar-thumb{
+    width: 6px;
+    background-color: #999;
+    transition: 0.5s;
+    border-radius: 4px;
+
+}
+
+#menu::-webkit-scrollbar-thumb:hover{
+    background-color: #ffffff;
+    transition: 0.5s;
+}
+
+#menuListenerCheck:checked ~ #content {
+    margin-left: 15%;
+    transition: 0.5s;
+    width: 100%;
+    overflow: hidden;
+    filter: blur(2px);
+}
+
+#menuListenerCheck:checked ~ #content #firstDiv{
+    background-attachment: scroll;
+    transition: 0.5s;
+}
+
+#menuListenerCheck:checked ~ #menu {
+    left: 0px;
+    transition: 0.5s; 
+}
+
+#backMenuListener {
+    position: relative;
+    display: flex;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    border: 0px solid #999;
+    border-radius: 30px;
+}
+
+#backMenuListener:hover {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 48px;
+    height: 48px;
+    border: 1px solid #999;
+    border-radius: 25px;
+}
+
+#backMenuListener p {
+    font-family: 'Exo 2', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16pt;
+    width: max-content;
+    height: max-content;
+    margin: auto;
+    color: #999;
+}
+
+#menuLogo {
+    margin: 0 auto;
+    margin-top: 10vh;
+    width: 47%;
+    height: 20vh;
+    background-image: url(../img/time.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#minute {
+    margin-top: -16vh;
+    margin-left: 49.5%;
+    width: 1%;
+    height: 5.5vh;
+    background-image: url(../img/minute.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name: minuteRepeat;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom center;
+    transition-timing-function: linear;
+}
+
+#hour {
+    margin-top: -3.9vh;
+    margin-left: 49.5%;
+    width: 1%;
+    height: 4vh;
+    background-image: url(../img/hour.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name: minuteRepeat;
+    animation-duration: 1800s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom center;
+    transition-timing-function: linear;
+}
+
+.menuUl {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 6vh;
+    color: #999;
+}
+
+.menuUl p {
+    margin-left: 15%; 
+    font-family: 'Didact Gothic', sans-serif;
+    background-image: url(../img/menuBack.png);
+    transition: 0.5s;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#firstMenuUl {
+    margin-top: 10vh;
+}
+
+.menuUl:hover {
+    color: #a3b3ed;
+}
+
+.fakeMenuUl {
+    margin: 0 auto;
+    width: 0%;
+    height: 0.5vh;
+    margin-top: -0.5vh;
+    transition: 0.5s;
+    background-color: #a3b3ed;
+}
+
+#firstMenuUl:hover #firstFakeMenuUl{
+    width: 70%;
+    height: 0.5vh;
+    margin-top: -0.5vh;
+    background-color: #a3b3ed;
+    transition: 0.5s;
+}
+
+#firstFakeMenuUl:hover {
+    width: 70%;
+    height: 0.5vh;
+    margin-top: -0.5vh;
+    background-color: #a3b3ed;
+    transition: 0.5s;
+}
+
+#secondMenuUl:hover #secondFakeMenuUl{
+    width: 70%;
+    height: 0.5vh;
+    margin-top: -0.5vh;
+    background-color: #a3b3ed;
+    transition: 0.5s;
+}
+
+#secondFakeMenuUl:hover {
+    width: 70%;
+    height: 0.5vh;
+    margin-top: -0.5vh;
+    background-color: #a3b3ed;
+    transition: 0.5s;
+}
+
+#thirdMenuUl:hover #thirdFakeMenuUl{
+    width: 70%;
+    height: 0.5vh;
+    margin-top: -0.5vh;
+    background-color: #a3b3ed;
+    transition: 0.5s;
+}
+
+#thirdFakeMenuUl:hover {
+    width: 70%;
+    height: 0.5vh;
+    margin-top: -0.5vh;
+    background-color: #a3b3ed;
+    transition: 0.5s;
+}
+
+#fourthMenuUl p {
+    background-image: none;
+}
+
+#fourthMenuUl:hover #fourthFakeMenuUl{
+    width: 70%;
+    height: 0.5vh;
+    margin-top: -0.5vh;
+    background-color: #a3b3ed;
+    transition: 0.5s;
+}
+
+#fourthFakeMenuUl:hover {
+    width: 70%;
+    height: 0.5vh;
+    margin-top: -0.5vh;
+    background-color: #a3b3ed;
+    transition: 0.5s;
+}
+
+#menuSaitName {
+    width: 100%;
+    display: flex;
+    height: max-content;
+    color: #999;
+    margin-bottom: 10vh;
+}
+
+#menuSaitName h1 {
+    margin: auto;
+    margin-top: 15vh;
+    font-size: 28pt;
+    font-family: 'Nixie One', cursive;
+}
+
+.menuDropdownUl {
+    margin: auto;
+    width: 70%;
+    height: 0vh;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+#menuStrNavigation:checked ~ #menu #firstMenuUl #firstMenuDropdownUl{
+    height: 17vh;
+    transition: 0.5s;
+    padding-top: 0.5vh;
+}
+
+#menuStrNavigation:checked ~ #menu #firstMenuUl p{
+    background-image: url(../img/menuFront.png);
+    transition: 0.5s;
+}
+
+#menuStrNavigation:checked ~ #menu #firstMenuUl p{
+    background-image: url(../img/menuFront.png);
+    transition: 0.5s;
+}
+
+#menuStrNavigation:checked ~ #menu #firstMenuUl {
+    color: #a3b3ed;
+    transition: 0.5s;
+}
+
+#menuStrNavigation:checked ~ #menu #firstMenuUl #firstFakeMenuUl {
+    width: 70%;
+    height: 0.5vh;
+    margin-top: -0.5vh;
+    background-color: #a3b3ed;
+    transition: 0.5s;
+}
+
+#menuSaitNavigation:checked ~ #menu #secondMenuUl #secondMenuDropdownUl{
+    height: 17vh;
+    transition: 0.5s;
+    padding-top: 0.5vh;
+}
+
+#menuSaitNavigation:checked ~ #menu #secondMenuUl p{
+    background-image: url(../img/menuFront.png);
+    transition: 0.5s;
+}
+
+#menuSaitNavigation:checked ~ #menu {
+    width: calc(20% + 6px);
+    transition: 0.5s;
+}
+
+#menuSaitNavigation:checked ~ #menu #secondMenuUl {
+    color: #a3b3ed;
+    transition: 0.5s;
+}
+
+#menuSaitNavigation:checked ~ #menu #secondMenuUl #secondFakeMenuUl {
+    width: 70%;
+    height: 0.5vh;
+    margin-top: -0.5vh;
+    background-color: #a3b3ed;
+    transition: 0.5s;
+}
+
+#menuRazdeli:checked ~ #menu #thirdMenuUl #thirdMenuDropdownUl{
+    height: 21vh;
+    transition: 0.5s;
+    padding-top: 0.5vh;
+}
+
+#menuRazdeli:checked ~ #menu #thirdMenuUl p{
+    background-image: url(../img/menuFront.png);
+    transition: 0.5s;
+}
+
+#menuRazdeli:checked ~ #menu {
+    width: calc(20% + 6px);
+    transition: 0.5s;
+}
+
+#menuRazdeli:checked ~ #menu #thirdMenuUl {
+    color: #a3b3ed;
+    transition: 0.5s;
+}
+
+#menuRazdeli:checked ~ #menu #thirdMenuUl #thirdFakeMenuUl {
+    width: 70%;
+    height: 0.5vh;
+    margin-top: -0.5vh;
+    background-color: #a3b3ed;
+    transition: 0.5s;
+}
+
+#menuStrNavigation {
+    display: none;
+}
+
+#menuSaitNavigation {
+    display: none;
+}
+
+#menuRazdeli {
+    display: none;
+}
+
+.menuDropdownUlDiv {
+    height: 3vh;
+    padding-top: 1vh;
+    padding-left: 1vh;
+}
+
+.menuDropdownUlDiv span{
+    height: max-content;
+    font-size: 12pt;
+    color: #999;
+    transition: 0.3s;
+}
+
+.menuDropdownUlDiv:hover span{
+    height: max-content;
+    font-size: 12pt;
+    color: #a3b3ed;
+    transition: 0.3s;
+}
+
+#menuSocialLinks {
+    margin: 0 auto;
+    margin-bottom: 1vh;
+    width: 34vh;
+    height: 5vh;
+    margin-top: 9.5vh;
+    padding-top: 0.5vh;
+}
+
+#socialLinkFacebook {
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+    clear: right;
+    height: 4vh;
+    width: 4vh;
+    background-image: url(../img/facebookDefault.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.3s;
+}
+
+#socialLinkFacebook:hover {
+    height: 5vh;
+    width: 5vh;
+    margin-top: -0.5vh;
+    background-image: url(../img/facebook.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.3s;
+}
+
+#socialLinkTwitter {
+    margin-right: 5px;
+    float: left;
+    clear: right;
+    height: 4vh;
+    width: 4vh;
+    background-image: url(../img/twitterDefault.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.3s;
+}
+
+#socialLinkTwitter:hover {
+    height: 5vh;
+    width: 5vh;
+    margin-top: -0.5vh;
+    background-image: url(../img/twitter.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.3s;
+}
+
+#socialLinkInstagram {
+    margin-right: 5px;
+    float: left;
+    clear: right;
+    height: 4vh;
+    width: 4vh;
+    background-image: url(../img/instagramDefault.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.3s;
+}
+
+#socialLinkInstagram:hover {
+    height: 5vh;
+    width: 5vh;
+    margin-top: -0.5vh;
+    background-image: url(../img/instagram.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.3s;
+}
+
+#socialLinkVK {
+    margin-right: 5px;
+    float: left;
+    clear: right;
+    height: 4vh;
+    width: 4vh;
+    background-image: url(../img/vkDefault.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.3s;
+}
+
+#socialLinkVK:hover {
+    height: 5vh;
+    width: 5vh;
+    margin-top: -0.5vh;
+    background-image: url(../img/vk.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.3s;
+}
+
+#socialLinkOD {
+    margin-right: 5px;
+    float: left;
+    clear: right;
+    height: 4vh;
+    width: 4vh;
+    background-image: url(../img/odDefault.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.3s;
+}
+
+#socialLinkOD:hover {
+    height: 5vh;
+    width: 5vh;
+    margin-top: -0.5vh;
+    background-image: url(../img/od.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.3s;
+}
+
+#socialLinkYandex {
+    margin-right: 5px;
+    float: left;
+    clear: right;
+    height: 4vh;
+    width: 4vh;
+    background-image: url(../img/yandexDefault.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.3s;
+}
+
+#socialLinkYandex:hover {
+    height: 5vh;
+    width: 5vh;
+    margin-top: -0.5vh;
+    background-image: url(../img/yandex.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.3s;
+}
+
+#socialLinkMail {
+    float: left;
+    clear: right;
+    height: 4vh;
+    width: 4vh;
+    background-image: url(../img/mailDefault.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.3s;
+}
+
+#socialLinkMail:hover {
+    height: 5vh;
+    width: 5vh;
+    margin-top: -0.5vh;
+    background-image: url(../img/mail.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.3s;
+}
+
+
+@keyframes minuteRepeat {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    1.67% {
+        transform: rotate(6deg);
+    }
+    
+    3.3% {
+        transform: rotate(12deg);
+    }
+
+    5% {
+        transform: rotate(18deg);
+    }
+
+    6.67% {
+        transform: rotate(24deg);
+    }
+
+
+    8.3% {
+        transform: rotate(30deg);
+    }
+
+    10% {
+        transform: rotate(36deg);
+    }
+    
+    11.67% {
+        transform: rotate(42deg);
+    }
+
+    13.3% {
+        transform: rotate(48deg);
+    }
+
+    15% {
+        transform: rotate(54deg);
+    }
+
+
+    16.67% {
+        transform: rotate(60deg);
+    }
+
+    18.3% {
+        transform: rotate(66deg);
+    }
+    
+    20% {
+        transform: rotate(72deg);
+    }
+
+    21.67% {
+        transform: rotate(78deg);
+    }
+
+    23.3% {
+        transform: rotate(84deg);
+    }
+
+
+    25% {
+        transform: rotate(90deg);
+    }
+
+    26.67% {
+        transform: rotate(96deg);
+    }
+    
+    28.3% {
+        transform: rotate(102deg);
+    }
+
+    30% {
+        transform: rotate(108deg);
+    }
+
+    31.67% {
+        transform: rotate(114deg);
+    }
+
+
+    33.3% {
+        transform: rotate(120deg);
+    }
+
+    35% {
+        transform: rotate(126deg);
+    }
+    
+    36.67% {
+        transform: rotate(132deg);
+    }
+
+    38.3% {
+        transform: rotate(138deg);
+    }
+
+    40% {
+        transform: rotate(144deg);
+    }
+
+
+    41.67% {
+        transform: rotate(150deg);
+    }
+
+    43.3% {
+        transform: rotate(156deg);
+    }
+    
+    45% {
+        transform: rotate(162deg);
+    }
+
+    46.67% {
+        transform: rotate(168deg);
+    }
+
+    48.3% {
+        transform: rotate(174deg);
+    }
+
+
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    51.67% {
+        transform: rotate(186deg);
+    }
+    
+    53.3% {
+        transform: rotate(192deg);
+    }
+
+    55% {
+        transform: rotate(198deg);
+    }
+
+    56.67% {
+        transform: rotate(204deg);
+    }
+
+
+    58.3% {
+        transform: rotate(210deg);
+    }
+
+    60% {
+        transform: rotate(216deg);
+    }
+    
+    61.67% {
+        transform: rotate(222deg);
+    }
+
+    63.3% {
+        transform: rotate(228deg);
+    }
+
+    65% {
+        transform: rotate(234deg);
+    }
+
+
+    66.67% {
+        transform: rotate(240deg);
+    }
+
+    68.3% {
+        transform: rotate(246deg);
+    }
+    
+    70% {
+        transform: rotate(252deg);
+    }
+
+    71.67% {
+        transform: rotate(258deg);
+    }
+
+    73.3% {
+        transform: rotate(264deg);
+    }
+
+
+    75% {
+        transform: rotate(270deg);
+    }
+
+    76.67% {
+        transform: rotate(276deg);
+    }
+    
+    78.3% {
+        transform: rotate(282deg);
+    }
+
+    80% {
+        transform: rotate(288deg);
+    }
+
+    81.67% {
+        transform: rotate(294deg);
+    }
+
+
+    83.3% {
+        transform: rotate(300deg);
+    }
+
+    85% {
+        transform: rotate(306deg);
+    }
+    
+    86.67% {
+        transform: rotate(312deg);
+    }
+
+    88.3% {
+        transform: rotate(318deg);
+    }
+
+    90% {
+        transform: rotate(324deg);
+    }
+
+
+    91.67% {
+        transform: rotate(330deg);
+    }
+
+    93.3% {
+        transform: rotate(336deg);
+    }
+    
+    95% {
+        transform: rotate(342deg);
+    }
+
+    96.67% {
+        transform: rotate(348deg);
+    }
+
+    98.3% {
+        transform: rotate(354deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

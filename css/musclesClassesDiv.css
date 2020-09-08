@@ -1,0 +1,991 @@
+#musclesClasses {
+    margin: 0px;
+    margin-top: -3vh;
+    padding: 0px;
+    width: 100%;
+    height: 3900px;
+    background-color: rgb(0, 0, 0);  
+}
+
+
+
+
+
+/*                      left block                    */
+
+.firstClassDiv {
+    position: relative;
+    z-index: 2;
+    border: #ffffff 4px solid;
+    margin-left: 150px; 
+    margin-top: 10%; 
+    width: calc(45% - 100px);
+    height: calc(18% - 100px);
+    transition: 0.5s;
+    background: url(../img/body1.jpg) no-repeat;
+    background-size: cover;
+}
+
+#firstDuplicateBlock {
+    margin-top: 5%;
+}
+
+.firstClassDiv:hover {
+    border: #ffffff 4px solid;
+    margin-top: 75px;
+    margin-left: 125px;
+    width: calc(45% - 50px);
+    height: calc(18% - 50px);
+    background-color: #e6e2ff ;
+    transition: 0.5s;
+}
+
+#firstDuplicateBlock:hover {
+    margin-top: 75px;
+}
+
+#fakeFirstClassDiv {
+    position: relative;
+    z-index: 1;
+    width: calc(45% - 92px);
+    height: calc(18% - 100px);
+    background-color: rgb(255, 255, 255);
+    margin-top: calc(0px - 38.5%);
+    margin-left: 150px;
+    transition: 0.5s;
+}
+
+.firstClassDiv:hover ~ #fakeFirstClassDiv {
+    margin-top: calc(0px - 41.7%);
+    margin-left: 125px;
+    width: calc(100% - 250px);
+    height: 16.95%;
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+} 
+
+#fakeFirstClassDiv:hover {
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+    width: 82.5%;
+    height: 15.65%;
+}
+
+#contentFakeFirstClassDiv {
+    width: 53%;
+    float: right;
+    height: 100%;
+    background-color: white;
+    overflow: hidden;
+}
+
+#contentFakeFirstClassDiv p {
+    opacity: 0;
+    margin: auto;
+}
+
+.firstClassDiv:hover ~ #fakeFirstClassDiv p {
+    margin: auto;
+    margin-top: 10%; 
+    width: 69%;
+    height: 60%;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.firstClassDiv:hover ~ #fakeFirstClassDiv .notSubtitleText {
+    margin: auto;
+    margin-top: 10%; 
+    width: 69%;
+    height: 60%;
+    opacity: 1;
+    transition: 0.5s;
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 16pt;
+}
+
+#contentFakeFirstClassDiv:hover .notSubtitleText {
+    margin: auto;
+    margin-top: 10%; 
+    width: 70%;
+    height: 60%;
+    opacity: 1;
+    transition: 0.5s;
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 16pt;
+}
+
+#contentFakeFirstClassDiv:hover p{
+    margin: auto;
+    margin-top: 10%; 
+    width: 70%;
+    height: 60%;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+#musclesClassesClassName {
+    position: absolute;
+    z-index: 0;
+    width: max-content;
+    height: max-content;
+    color: white;
+    left: 68%;
+    top: 440vh;
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+    transition: 1.2s;
+}
+
+#musclesClassesClassName h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poiret One', cursive;
+    letter-spacing: 3px;
+    font-size: 60pt;
+    width: max-content;
+    height: max-content;
+    text-align: center;
+    color: white;
+}
+
+.firstClassDiv:hover ~ #musclesClassesClassName {
+    opacity: 0;
+    transition: 0.2s;
+}
+
+#fakeFirstClassDiv:hover ~ #musclesClassesClassName {
+    opacity: 0;
+    transition: 0.2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*                       right block                    */
+
+#bgGrudDiv{
+    background: url(../img/grud.png) no-repeat;
+    background-size: cover;
+}
+
+
+
+.secondClassDiv {
+    position: relative;
+    z-index: 2;
+    border: #ffffff 4px solid;
+    margin-left: 51%; 
+    margin-top: 10%; 
+    width: calc(45% - 100px);
+    height: calc(18% - 100px);
+    transition: 0.5s;
+    background: url(../img/body1.jpg) no-repeat;
+    background-size: cover;
+}
+
+.secondClassDiv:hover {
+    border: #ffffff 4px solid;
+    margin-top: 150px;
+    margin-right: 125px;
+    margin-left: 50%;
+    width: calc(45% - 50px);
+    height: calc(18% - 50px);
+    background-color: #e6e2ff ;
+    transition: 0.5s;
+}
+
+#fakeSecondClassDiv {
+    position: relative;
+    z-index: 1;
+    width: calc(45% - 92px);
+    height: calc(18% - 100px);
+    background-color: rgb(255, 255, 255);
+    margin-top: calc(0px - 38.5%);
+    margin-left: 51%; 
+    transition: 0.5s;
+}
+
+.secondClassDiv:hover ~ #fakeSecondClassDiv {
+    margin-top: calc(0px - 41.7%);
+    margin-left: 8%; 
+    width: calc(100% - 250px);
+    height: 16.92%;
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+} 
+
+#fakeSecondClassDiv:hover {
+    margin-top: calc(0px - 38.55%);
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+    width: 82.2%;
+    height: 15.65%;
+    margin-left: 8%; 
+}
+
+#contentFakeSecondClassDiv {
+    width: 53%;
+    height: 100%;
+    background-color: white;
+    overflow: hidden;
+}
+
+#contentFakeSecondClassDiv p {
+    opacity: 0;
+    margin: auto;
+}
+
+.secondClassDiv:hover ~ #fakeSecondClassDiv p {
+    margin: auto;
+    margin-top: 10%; 
+    width: 69%;
+    height: 60%;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.secondClassDiv:hover ~ #fakeSecondClassDiv .notSubtitleText {
+    margin: auto;
+    margin-top: 10%; 
+    width: 69%;
+    height: 60%;
+    opacity: 1;
+    transition: 0.5s;
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 16pt;
+}
+
+#contentFakeSecondClassDiv:hover .notSubtitleText {
+    margin: auto;
+    margin-top: 10%; 
+    width: 70%;
+    height: 60%;
+    opacity: 1;
+    transition: 0.5s;
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 16pt;
+}
+
+#contentFakeSecondClassDiv:hover p{
+    margin: auto;
+    margin-top: 10%; 
+    width: 70%;
+    height: 60%;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+#musclesClassesClassName1 {
+    position: absolute;
+    z-index: 0;
+    width: max-content;
+    height: max-content;
+    color: white;
+    left: 20%;
+    top: 540vh;
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+    transition: 1.2s;
+}
+
+#musclesClassesClassName1 h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poiret One', cursive;
+    font-size: 60pt;
+    width: max-content;
+    height: max-content;
+    text-align: center;
+    color: white;
+}
+
+.secondClassDiv:hover ~ #musclesClassesClassName1 {
+    opacity: 0;
+    transition: 0.2s;
+}
+
+#fakeSecondClassDiv:hover ~ #musclesClassesClassName1 {
+    opacity: 0;
+    transition: 0.2s;
+}
+
+
+
+
+/*                      left second block                    */
+
+#bgHandsDiv{
+    background: url(../img/hands.png) no-repeat;
+    background-size: cover;
+}
+
+.firstClassDiv {
+    position: relative;
+    z-index: 2;
+    border: #ffffff 4px solid;
+    margin-left: 150px; 
+    margin-top: 10%; 
+    width: calc(45% - 100px);
+    height: calc(18% - 100px);
+    transition: 0.5s;
+    background: url(../img/body1.jpg) no-repeat;
+    background-size: cover;
+}
+
+.firstClassDiv:hover {
+    border: #ffffff 4px solid;
+    margin-top: 150px;
+    margin-left: 125px;
+    width: calc(45% - 50px);
+    height: calc(18% - 50px);
+    background-color: #e6e2ff ;
+    transition: 0.5s;
+}
+
+#fakeFirstClassDiv1 {
+    position: relative;
+    z-index: 1;
+    width: calc(45% - 92px);
+    height: calc(18% - 100px);
+    background-color: rgb(255, 255, 255);
+    margin-top: calc(0px - 38.5%);
+    margin-left: 150px;
+    transition: 0.5s;
+}
+
+.firstClassDiv:hover ~ #fakeFirstClassDiv1 {
+    margin-top: calc(0px - 41.7%);
+    margin-left: 125px;
+    width: calc(100% - 250px);
+    height: 16.95%;
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+} 
+
+#fakeFirstClassDiv1:hover {
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+    width: 82.5%;
+    height: 15.65%;
+}
+
+#contentFakeThirdClassDiv {
+    width: 53%;
+    float: right;
+    height: 100%;
+    background-color: white;
+    overflow: hidden;
+}
+
+#contentFakeThirdClassDiv p {
+    opacity: 0;
+    margin: auto;
+}
+
+.firstClassDiv:hover ~ #fakeFirstClassDiv1 p {
+    margin: auto;
+    margin-top: 10%; 
+    width: 69%;
+    height: 60%;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.firstClassDiv:hover ~ #fakeFirstClassDiv1 .notSubtitleText {
+    margin: auto;
+    margin-top: 10%; 
+    width: 69%;
+    height: 60%;
+    opacity: 1;
+    transition: 0.5s;
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 16pt;
+}
+
+#contentFakeThirdClassDiv:hover .notSubtitleText {
+    margin: auto;
+    margin-top: 10%; 
+    width: 70%;
+    height: 60%;
+    opacity: 1;
+    transition: 0.5s;
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 16pt;
+}
+
+#contentFakeThirdClassDiv:hover p{
+    margin: auto;
+    margin-top: 10%; 
+    width: 70%;
+    height: 60%;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+#musclesClassesClassName2 {
+    position: absolute;
+    z-index: 0;
+    width: max-content;
+    height: max-content;
+    color: white;
+    left: 70%;
+    top: 640vh;
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+    transition: 1.2s;
+}
+
+#musclesClassesClassName2 h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poiret One', cursive;
+    font-size: 60pt;
+    width: max-content;
+    height: max-content;
+    text-align: center;
+    color: white;
+}
+
+.firstClassDiv:hover ~ #musclesClassesClassName2 {
+    opacity: 0;
+    transition: 0.2s;
+}
+
+#fakeFirstClassDiv1:hover ~ #musclesClassesClassName2 {
+    opacity: 0;
+    transition: 0.2s;
+}
+
+
+/*                      right second block                    */
+
+#bgLegsDiv {
+    background: url(../img/legs.png) no-repeat;
+    background-size: cover;
+}
+
+#fakeSecondClassDiv1 {
+    position: relative;
+    z-index: 1;
+    width: calc(45% - 92px);
+    height: calc(18% - 100px);
+    background-color: rgb(255, 255, 255);
+    margin-top: calc(0px - 38.5%);
+    margin-left: 51%; 
+    transition: 0.5s;
+}
+
+.secondClassDiv:hover ~ #fakeSecondClassDiv1 {
+    margin-top: calc(0px - 41.7%);
+    margin-left: 8%; 
+    width: calc(100% - 250px);
+    height: 16.92%;
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+} 
+
+#fakeSecondClassDiv1:hover {
+    margin-top: calc(0px - 38.55%);
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+    width: 82.2%;
+    height: 15.65%;
+    margin-left: 8%; 
+}
+
+#contentFakeFourthClassDiv {
+    width: 53%;
+    height: 100%;
+    background-color: white;
+    overflow: hidden;
+}
+
+#contentFakeFourthClassDiv p {
+    opacity: 0;
+    margin: auto;
+}
+
+.secondClassDiv:hover ~ #fakeSecondClassDiv1 p {
+    margin: auto;
+    margin-top: 10%; 
+    width: 69%;
+    height: 60%;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.secondClassDiv:hover ~ #fakeSecondClassDiv1 .notSubtitleText {
+    margin: auto;
+    margin-top: 10%; 
+    width: 69%;
+    height: 60%;
+    opacity: 1;
+    transition: 0.5s;
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 16pt;
+}
+
+#contentFakeFourthClassDiv:hover .notSubtitleText {
+    margin: auto;
+    margin-top: 10%; 
+    width: 70%;
+    height: 60%;
+    opacity: 1;
+    transition: 0.5s;
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 16pt;
+}
+
+#contentFakeFourthClassDiv:hover p{
+    margin: auto;
+    margin-top: 10%; 
+    width: 70%;
+    height: 60%;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+
+#musclesClassesClassName3 {
+    position: absolute;
+    z-index: 0;
+    width: max-content;
+    height: max-content;
+    color: white;
+    left: 20%;
+    top: 740vh;
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+    transition: 1.2s;
+}
+
+#musclesClassesClassName3 h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poiret One', cursive;
+    font-size: 60pt;
+    width: max-content;
+    height: max-content;
+    text-align: center;
+    color: white;
+}
+
+.secondClassDiv:hover ~ #musclesClassesClassName3 {
+    opacity: 0;
+    transition: 0.2s;
+}
+
+#fakeSecondClassDiv1:hover ~ #musclesClassesClassName3 {
+    opacity: 0;
+    transition: 0.2s;
+}
+
+
+
+/*                      left third block                    */
+
+#bgMotivationDiv{
+    background: url(../img/motivation.png) no-repeat;
+    background-size: cover;
+}
+
+#fakeFirstClassDiv2 {
+    position: relative;
+    z-index: 1;
+    width: calc(45% - 92px);
+    height: calc(18% - 100px);
+    background-color: rgb(255, 255, 255);
+    margin-top: calc(0px - 38.5%);
+    margin-left: 150px;
+    transition: 0.5s;
+}
+
+.firstClassDiv:hover ~ #fakeFirstClassDiv2 {
+    margin-top: calc(0px - 41.7%);
+    margin-left: 125px;
+    width: calc(100% - 250px);
+    height: 16.95%;
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+} 
+
+#fakeFirstClassDiv2:hover {
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+    width: 82.5%;
+    height: 15.65%;
+}
+
+#contentFakeFifthClassDiv {
+    width: 53%;
+    float: right;
+    height: 100%;
+    background-color: white;
+    overflow: hidden;
+}
+
+#contentFakeFifthClassDiv p {
+    opacity: 0;
+    margin: auto;
+}
+
+.firstClassDiv:hover ~ #fakeFirstClassDiv2 p {
+    margin: auto;
+    margin-top: 10%; 
+    width: 69%;
+    height: 60%;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.firstClassDiv:hover ~ #fakeFirstClassDiv2 .notSubtitleText {
+    margin: auto;
+    margin-top: 10%; 
+    width: 69%;
+    height: 60%;
+    opacity: 1;
+    transition: 0.5s;
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 16pt;
+}
+
+#contentFakeFifthClassDiv:hover .notSubtitleText {
+    margin: auto;
+    margin-top: 10%; 
+    width: 70%;
+    height: 60%;
+    opacity: 1;
+    transition: 0.5s;
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 16pt;
+}
+
+#contentFakeFifthClassDiv:hover p{
+    margin: auto;
+    margin-top: 10%; 
+    width: 70%;
+    height: 60%;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+#musclesClassesClassName4 {
+    position: absolute;
+    z-index: 0;
+    width: max-content;
+    height: max-content;
+    color: white;
+    left: 63%;
+    top: 840vh;
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+    transition: 1.2s;
+}
+
+#musclesClassesClassName4 h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poiret One', cursive;
+    font-size: 60pt;
+    width: max-content;
+    height: max-content;
+    text-align: center;
+    color: white;
+}
+
+.firstClassDiv:hover ~ #musclesClassesClassName4 {
+    opacity: 0;
+    transition: 0.2s;
+}
+
+#fakeFirstClassDiv2:hover ~ #musclesClassesClassName4 {
+    opacity: 0;
+    transition: 0.2s;
+}
+
+
+
+
+
+/*                   subtitle                        */
+#firstClassDivSubtitle {
+    width: 25%;
+    margin-top: 2%;
+}
+
+#secondClassDivSubtitle {
+    width: 25%;
+    margin-top: 2%;
+}
+
+#thirdClassDivSubtitle {
+    width: 25%;
+    margin-top: 2%;
+}
+
+#fourthClassDivSubtitle {
+    width: 25%;
+    margin-top: 2%;
+}
+
+#fifthClassDivSubtitle {
+    width: 25%;
+    margin-top: 2%;
+}
+
+/* first block subtitle */
+#contentFakeFirstClassDiv:hover #firstClassDivSubtitle #leftSubtitle {
+    width: 4%;
+    margin-top: -7vh;
+    height: 9vh;
+    transition: 0.5s;
+    transition-delay: 0s;
+    background-color: #a3b3ed;
+}
+
+#contentFakeFirstClassDiv:hover #firstClassDivSubtitle #rightSubtitle {
+    margin-top: -9vh;
+    margin-left: 96%;
+    width: 4%;
+    height: 9vh;
+    transition: 0.5s;
+    transition-delay: 0s;
+    background-color: #a3b3ed;
+}
+
+#contentFakeFirstClassDiv:hover #firstClassDivSubtitle #bottomSubtitle {
+    height: 1vh;
+    width: 100%;
+    margin-top: -0.5vh;
+    transition: 0.5s;
+    transition-delay: 0.3s;
+    background-color: #a3b3ed;
+}
+
+#contentFakeFirstClassDiv:hover #firstClassDivSubtitle #topSubtitle {
+    margin-left: 0%;
+    margin-top: -9.5vh; 
+    height: 1vh;
+    width: 100%;
+    transition: 0.5s;
+    transition-delay: 0.3s;
+    background-color: #a3b3ed;
+}
+
+/* second block subtitle */
+#contentFakeSecondClassDiv:hover #secondClassDivSubtitle #leftSubtitle {
+    width: 4%;
+    margin-top: -7vh;
+    height: 9vh;
+    transition: 0.5s;
+    transition-delay: 0s;
+    background-color: #a3b3ed;
+}
+
+#contentFakeSecondClassDiv:hover #secondClassDivSubtitle #rightSubtitle {
+    margin-top: -9vh;
+    margin-left: 96%;
+    width: 4%;
+    height: 9vh;
+    transition: 0.5s;
+    transition-delay: 0s;
+    background-color: #a3b3ed;
+}
+
+#contentFakeSecondClassDiv:hover #secondClassDivSubtitle #bottomSubtitle {
+    height: 1vh;
+    width: 100%;
+    margin-top: -0.5vh;
+    transition: 0.5s;
+    transition-delay: 0.3s;
+    background-color: #a3b3ed;
+}
+
+#contentFakeSecondClassDiv:hover #secondClassDivSubtitle #topSubtitle {
+    margin-left: 0%;
+    margin-top: -9.5vh; 
+    height: 1vh;
+    width: 100%;
+    transition: 0.5s;
+    transition-delay: 0.3s;
+    background-color: #a3b3ed;
+}
+
+/* third block subtitle */
+#contentFakeThirdClassDiv:hover #thirdClassDivSubtitle #leftSubtitle {
+    width: 4%;
+    margin-top: -7vh;
+    height: 9vh;
+    transition: 0.5s;
+    transition-delay: 0s;
+    background-color: #a3b3ed;
+}
+
+#contentFakeThirdClassDiv:hover #thirdClassDivSubtitle #rightSubtitle {
+    margin-top: -9vh;
+    margin-left: 96%;
+    width: 4%;
+    height: 9vh;
+    transition: 0.5s;
+    transition-delay: 0s;
+    background-color: #a3b3ed;
+}
+
+#contentFakeThirdClassDiv:hover #thirdClassDivSubtitle #bottomSubtitle {
+    height: 1vh;
+    width: 100%;
+    margin-top: -0.5vh;
+    transition: 0.5s;
+    transition-delay: 0.3s;
+    background-color: #a3b3ed;
+}
+
+#contentFakeThirdClassDiv:hover #thirdClassDivSubtitle #topSubtitle {
+    margin-left: 0%;
+    margin-top: -9.5vh; 
+    height: 1vh;
+    width: 100%;
+    transition: 0.5s;
+    transition-delay: 0.3s;
+    background-color: #a3b3ed;
+}
+
+/* fourth block subtitle */
+#contentFakeFourthClassDiv:hover #fourthClassDivSubtitle #leftSubtitle {
+    width: 4%;
+    margin-top: -7vh;
+    height: 9vh;
+    transition: 0.5s;
+    transition-delay: 0s;
+    background-color: #a3b3ed;
+}
+
+#contentFakeFourthClassDiv:hover #fourthClassDivSubtitle #rightSubtitle {
+    margin-top: -9vh;
+    margin-left: 96%;
+    width: 4%;
+    height: 9vh;
+    transition: 0.5s;
+    transition-delay: 0s;
+    background-color: #a3b3ed;
+}
+
+#contentFakeFourthClassDiv:hover #fourthClassDivSubtitle #bottomSubtitle {
+    height: 1vh;
+    width: 100%;
+    margin-top: -0.5vh;
+    transition: 0.5s;
+    transition-delay: 0.3s;
+    background-color: #a3b3ed;
+}
+
+#contentFakeFourthClassDiv:hover #fourthClassDivSubtitle #topSubtitle {
+    margin-left: 0%;
+    margin-top: -9.5vh; 
+    height: 1vh;
+    width: 100%;
+    transition: 0.5s;
+    transition-delay: 0.3s;
+    background-color: #a3b3ed;
+}
+
+/* fifth block subtitle */
+#contentFakeFifthClassDiv:hover #fifthClassDivSubtitle #leftSubtitle {
+    width: 4%;
+    margin-top: -7vh;
+    height: 9vh;
+    transition: 0.5s;
+    transition-delay: 0s;
+    background-color: #a3b3ed;
+}
+
+#contentFakeFifthClassDiv:hover #fifthClassDivSubtitle #rightSubtitle {
+    margin-top: -9vh;
+    margin-left: 96%;
+    width: 4%;
+    height: 9vh;
+    transition: 0.5s;
+    transition-delay: 0s;
+    background-color: #a3b3ed;
+}
+
+#contentFakeFifthClassDiv:hover #fifthClassDivSubtitle #bottomSubtitle {
+    height: 1vh;
+    width: 100%;
+    margin-top: -0.5vh;
+    transition: 0.5s;
+    transition-delay: 0.3s;
+    background-color: #a3b3ed;
+}
+
+#contentFakeFifthClassDiv:hover #fifthClassDivSubtitle #topSubtitle {
+    margin-left: 0%;
+    margin-top: -9.5vh; 
+    height: 1vh;
+    width: 100%;
+    transition: 0.5s;
+    transition-delay: 0.3s;
+    background-color: #a3b3ed;
+}
+
+
+
+
+/*                         headLine                       */
+#musclesClasses #musclesClassesHeadline #firstBottomBorder {
+    margin: auto;
+    margin-top: 2vh;
+    width: 0%;
+    height: 0.7vh;
+    background-color: #a3b3ed;
+    transition: 0.5s;
+    transition-delay: 0.3s;
+}
+
+#musclesClassesHeadline {
+    margin-top: -10vh;
+}
+
+#musclesClasses #musclesClassesHeadline #secondBottomBorder {
+    margin: auto;
+    margin-top: 1vh;
+    width: 0%;
+    height: 0.7vh;
+    background-color: #ff3942;
+    transition: 0.5s;
+}
+
+#musclesClasses:hover #musclesClassesHeadline #firstBottomBorder {
+    margin: auto;
+    margin-top: 2vh;
+    width: 90%;
+    height: 0.7vh;
+    background-color: #a3b3ed;
+    transition: 0.5s;
+}
+
+#musclesClasses:hover #musclesClassesHeadline #secondBottomBorder {
+    margin: auto;
+    margin-top: 1vh;
+    width: 50%;
+    height: 0.7vh;
+    background-color: #ff3942;
+    transition: 0.5s;
+    transition-delay: 0.3s;
+}

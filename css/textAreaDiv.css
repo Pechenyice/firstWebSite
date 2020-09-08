@@ -1,0 +1,116 @@
+#textArea {
+    margin: 0;
+    padding: 0;
+    padding-top: 10vh;
+    width: 100%;
+    height: 110vh;
+    background-color: black;
+}
+
+#firstTextArea {
+    margin: auto;
+    margin-top: 5vh;
+    width: 59%;
+    height: 70vh;
+    background-image: url(../img/parBorder1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.5s;
+}
+
+#firstTextArea:hover {
+    width: 67.6%;
+    height: 80vh;
+    background-color: white;
+    background-image: url(../img/parBorder.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.5s;
+    margin-top: 0vh;
+}
+
+#leftP {
+    text-align: left;
+    float: left;
+    clear: right;
+    width: 40%;
+    height: 50vh;
+    margin-top: 10vh;
+    margin-left: 8%;
+    margin-right: 5%;
+    color:#fff;
+    font-size: 15pt;
+    font-family: 'Cormorant Unicase', serif;
+    transition: 0.5s;
+}
+
+#rightP {
+    text-align: left;
+    float: left;
+    width: 40%;
+    height: 50vh;
+    margin-top: 10vh;
+    margin-right: 6.5%;
+    color:#fff;
+    font-size: 15pt;
+    font-family: 'Cormorant Unicase', serif;
+    transition: 0.5s;
+}
+
+#firstTextArea:hover #leftP {
+    width: 34%;
+    margin-left: 13.5%;
+    margin-top: 15vh;
+    transition: 0.5s;
+    color: black;
+}
+
+#firstTextArea:hover #rightP {
+    margin-left: 0.5%;
+    width: 34%;
+    margin-top: 15vh;
+    transition: 0.5s;
+    color: black;
+}
+
+#textAreaHeadline {
+    margin-top: 7ыvh;
+}
+
+#textArea #textAreaHeadline #firstBottomBorder {
+    margin: auto;
+    margin-top: 2vh;
+    width: 0%;
+    height: 0.7vh;
+    background-color: #a3b3ed;
+    transition: 0.5s;
+    transition-delay: 0.3s;
+}
+
+#textArea #textAreaHeadline #secondBottomBorder {
+    margin: auto;
+    margin-top: 1vh;
+    width: 0%;
+    height: 0.7vh;
+    background-color: #ff3942;
+    transition: 0.5s;
+}
+
+#textArea:hover #textAreaHeadline #firstBottomBorder {
+    margin: auto;
+    margin-top: 2vh;
+    width: 90%;
+    height: 0.7vh;
+    background-color: #a3b3ed;
+    transition: 0.5s;
+}
+
+#textArea:hover #textAreaHeadline #secondBottomBorder {
+    margin: auto;
+    margin-top: 1vh;
+    width: 50%;
+    height: 0.7vh;
+    background-color: #ff3942;
+    transition: 0.5s;
+    transition-delay: 0.3s;
+}

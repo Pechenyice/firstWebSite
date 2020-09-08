@@ -1,0 +1,128 @@
+.headText {
+    opacity: 0;
+    text-align: center;
+    font-size: 14pt;
+    font-family: 'Exo 2', sans-serif;
+    color: white;
+    margin-top: -40px;
+    margin-bottom: 0px;
+    height: 40px;
+    position: relative;
+    z-index: 5;
+    transition-duration: 0.2s;
+}
+
+#head {
+    opacity: 0;
+    width: 75px;
+    height: 80px;
+    position: relative;
+    z-index: 2;
+    margin-top: -485px;
+    margin-left: 570px; 
+}
+
+#headB {
+    opacity: 0;
+    width: 75px;
+    height: 80px;
+    position: relative;
+    z-index: 2;
+    margin-top: -80px;
+    margin-left: 920px; 
+}
+
+#head:hover ~ #bMuscle {
+    background-image: url(../../img/body/headTop.png);
+    transition-duration: 0.2s;
+}
+
+#headB:hover ~ #bMuscle {
+    background-image: url(../../img/body/headBottom.png);
+    transition-duration: 0.2s;
+}
+
+
+#head:hover ~  #type p{
+    opacity: 0;
+}
+
+#headB:hover ~ #type p{
+    opacity: 0;
+}
+
+#head:hover ~ #type .headText{
+    opacity: 1;
+}
+
+#headB:hover ~ #type .headText{
+    opacity: 1;
+}
+
+
+#head:hover ~  #description p{
+    opacity: 0;
+}
+
+#headB:hover ~ #description p{
+    opacity: 0;
+}
+
+#head:hover ~ #description .headText{
+    opacity: 1;
+}
+
+#headB:hover ~ #description .headText{
+    opacity: 1;
+}
+
+
+#head:hover ~  #time p{
+    opacity: 0;
+}
+
+#headB:hover ~ #time p{
+    opacity: 0;
+}
+
+#head:hover ~ #time .headText{
+    opacity: 1;
+}
+
+#headB:hover ~ #time .headText{
+    opacity: 1;
+}
+
+
+#head:hover ~  #protiv p{
+    opacity: 0;
+}
+
+#headB:hover ~ #protiv p{
+    opacity: 0;
+}
+
+#head:hover ~ #protiv .headText{
+    opacity: 1;
+}
+
+#headB:hover ~ #protiv .headText{
+    opacity: 1;
+}
+
+
+#head:hover ~  #attract p{
+    opacity: 0;
+}
+
+#headB:hover ~ #attract p{
+    opacity: 0;
+}
+
+#head:hover ~ #attract .headText{
+    opacity: 1;
+}
+
+#headB:hover ~ #attract .headText{
+    opacity: 1;
+}

@@ -1,0 +1,242 @@
+.handsText {
+    opacity: 0;
+    text-align: center;
+    font-size: 14pt;
+    font-family: 'Exo 2', sans-serif;
+    color: white;
+    margin-top: -40px;
+    margin-bottom: 0px;
+    height: 40px;
+    position: relative;
+    z-index: 2;
+    transition-duration: 0.2s;
+}
+
+#hands {
+    transform: rotate(-75deg);
+    opacity: 0;
+    width: 235px;
+    height: 50px;
+    position: relative;
+    z-index: 2;
+    margin-top: 30px;
+    margin-left: 395px; 
+}
+
+#handsB {
+    transform: rotate(75deg);
+    opacity: 0;
+    width: 235px;
+    height: 50px;
+    position: relative;
+    z-index: 2;
+    margin-top: -50px;
+    margin-left: 580px; 
+}
+
+#handsC {
+    transform: rotate(-75deg);
+    opacity: 0;
+    width: 235px;
+    height: 50px;
+    position: relative;
+    z-index: 2;
+    margin-top: -60px;
+    margin-left: 745px; 
+}
+
+#handsD {
+    transform: rotate(75deg);
+    opacity: 0;
+    width: 235px;
+    height: 50px;
+    position: relative;
+    z-index: 2;
+    margin-top: -50px;
+    margin-left: 940px; 
+}
+
+#hands:hover ~ #bMuscle {
+    background-image: url(../../img/body/rightTopHand.png);
+    transition-duration: 0.2s;
+}
+
+#handsB:hover ~ #bMuscle {
+    background-image: url(../../img/body/leftTopHand.png);
+    transition-duration: 0.2s;
+}
+
+#handsC:hover ~ #bMuscle {
+    background-image: url(../../img/body/leftBottomHand.png);
+    transition-duration: 0.2s;
+}
+
+#handsD:hover ~ #bMuscle {
+    background-image: url(../../img/body/rightBottomHand.png);
+    transition-duration: 0.2s;
+}
+
+
+#hands:hover ~ #type p{
+    opacity: 0;
+}
+
+#handsB:hover ~ #type p{
+    opacity: 0;
+}
+
+#handsC:hover ~ #type p{
+    opacity: 0;
+}
+
+#handsD:hover ~ #type p{
+    opacity: 0;
+}
+
+#hands:hover ~ #type .handsText{
+    opacity: 1;
+}
+
+#handsB:hover ~ #type .handsText{
+    opacity: 1;
+}
+
+#handsC:hover ~ #type .handsText{
+    opacity: 1;
+}
+
+#handsD:hover ~ #type .handsText{
+    opacity: 1;
+}
+
+
+#hands:hover ~ #description p{
+    opacity: 0;
+}
+
+#handsB:hover ~ #description p{
+    opacity: 0;
+}
+
+#handsC:hover ~ #description p{
+    opacity: 0;
+}
+
+#handsD:hover ~ #description p{
+    opacity: 0;
+}
+
+#hands:hover ~ #description .handsText{
+    opacity: 1;
+}
+
+#handsB:hover ~ #description .handsText{
+    opacity: 1;
+}
+
+#handsC:hover ~ #description .handsText{
+    opacity: 1;
+}
+
+#handsD:hover ~ #description .handsText {
+    opacity: 1;
+}
+
+
+#hands:hover ~ #time p{
+    opacity: 0;
+}
+
+#handsB:hover ~ #time p{
+    opacity: 0;
+}
+
+#handsC:hover ~ #time p{
+    opacity: 0;
+}
+
+#handsD:hover ~ #time p{
+    opacity: 0;
+}
+
+#hands:hover ~ #time .handsText{
+    opacity: 1;
+}
+
+#handsB:hover ~ #time .handsText{
+    opacity: 1;
+}
+
+#handsC:hover ~ #time .handsText{
+    opacity: 1;
+}
+
+#handsD:hover ~ #time .handsText{
+    opacity: 1;
+}
+
+
+#hands:hover ~ #protiv p{
+    opacity: 0;
+}
+
+#handsB:hover ~ #protiv p{
+    opacity: 0;
+}
+
+#handsC:hover ~ #protiv p{
+    opacity: 0;
+}
+
+#handsD:hover ~ #protiv p{
+    opacity: 0;
+}
+
+#hands:hover ~ #protiv .handsText{
+    opacity: 1;
+}
+
+#handsB:hover ~ #protiv .handsText{
+    opacity: 1;
+}
+
+#handsC:hover ~ #protiv .handsText{
+    opacity: 1;
+}
+
+#handsD:hover ~ #protiv .handsText{
+    opacity: 1;
+}
+
+
+#hands:hover ~ #attract p{
+    opacity: 0;
+}
+
+#handsB:hover ~ #attract p{
+    opacity: 0;
+}
+
+#handsC:hover ~ #attract p{
+    opacity: 0;
+}
+
+#handsD:hover ~ #attract p{
+    opacity: 0;
+}
+
+#hands:hover ~ #attract .handsText{
+    opacity: 1;
+}
+
+#handsB:hover ~ #attract .handsText{
+    opacity: 1;
+}
+
+#handsC:hover ~ #attract .handsText{
+    opacity: 1;
+}
+
+#handsD:hover ~ #attract .handsText{
+    opacity: 1;
+}

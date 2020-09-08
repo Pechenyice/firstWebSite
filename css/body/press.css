@@ -1,0 +1,128 @@
+#press {
+    opacity: 0;
+    position: relative;
+    z-index: 1;
+    width: 110px;
+    height: 110px;
+    margin-top: 218px;
+    margin-left: 550px; 
+}
+
+#pressB {
+    opacity: 0;
+    position: relative;
+    z-index: 1;
+    width: 110px;
+    height: 110px;
+    margin-top: -110px;
+    margin-left: 905px; 
+}
+
+.pressText {
+    opacity: 0;
+    text-align: center;
+    font-size: 14pt;
+    font-family: 'Exo 2', sans-serif;
+    color: white;
+    margin-top: -20px;
+    margin-bottom: 0px;
+    height: 40px;
+    position: relative;
+    z-index: 1;
+    transition-duration: 0.2s;
+}
+
+#press:hover ~ #bMuscle {
+    background-image: url(../../img/body/pressTop.png);
+    transition-duration: 0.2s;
+}
+
+#pressB:hover ~ #bMuscle {
+    background-image: url(../../img/body/pressBottom.png);
+    transition-duration: 0.2s;
+}
+
+
+#press:hover ~  #type p{
+    opacity: 0;
+}
+
+#pressB:hover ~ #type p{
+    opacity: 0;
+}
+
+#press:hover ~ #type .pressText {
+    opacity: 1;
+}
+
+#pressB:hover ~ #type .pressText{
+    opacity: 1;
+}
+
+
+#press:hover ~  #description p{
+    opacity: 0;
+}
+
+#pressB:hover ~ #description p{
+    opacity: 0;
+}
+
+#press:hover ~ #description .pressText{
+    opacity: 1;
+}
+
+#pressB:hover ~ #description .pressText{
+    opacity: 1;
+}
+
+
+#press:hover ~  #time p{
+    opacity: 0;
+}
+
+#pressB:hover ~ #time p{
+    opacity: 0;
+}
+
+#press:hover ~ #time .pressText{
+    opacity: 1;
+}
+
+#pressB:hover ~ #time .pressText{
+    opacity: 1;
+}
+
+
+#press:hover ~  #protiv p{
+    opacity: 0;
+}
+
+#pressB:hover ~ #protiv p{
+    opacity: 0;
+}
+
+#press:hover ~ #protiv .pressText{
+    opacity: 1;
+}
+
+#pressB:hover ~ #protiv .pressText{
+    opacity: 1;
+}
+
+
+#press:hover ~  #attract p{
+    opacity: 0;
+}
+
+#pressB:hover ~ #attract p{
+    opacity: 0;
+}
+
+#press:hover ~ #attract .pressText{
+    opacity: 1;
+}
+
+#pressB:hover ~ #attract .pressText{
+    opacity: 1;
+}

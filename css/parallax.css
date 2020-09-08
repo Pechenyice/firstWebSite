@@ -1,0 +1,100 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+
+div.parallaxHeader {
+  box-sizing: border-box;
+  min-height: 100vh;
+  text-align: center;
+  padding-top: 20%;
+  transform-style: preserve-3d;
+  width: 100vw; 
+}
+
+div.parallaxHeader::before {
+  content: '';
+  display: block;
+  position: relative;
+  z-index: -1;
+  transform-origin: center;
+  min-height: 100vh;
+  background-image: url('https://kulturologia.ru/files/u18046/Sveta-Butko-21.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  transform: translateZ(-9px) scale(10);
+}
+
+div.parallaxHeader h1 {
+  display: block;
+  position: relative;
+  z-index: -1;
+  transform-origin: center;
+  transform: translateZ(-1px) scale(2);
+}
+
+body .parallaxHeader h2 {
+  display: block;
+  position: relative;
+  z-index: -1;
+  transform-origin: center;
+  transform: translateZ(-2px) scale(3);
+}
+
+body .parallaxHeader h3 {
+  display: block;
+  position: relative;
+  z-index: -1;
+  transform-origin: center;
+  transform: translateZ(-3px) scale(4);
+}
+
+body .parallaxHeader h4 {
+  display: block;
+  position: relative;
+  z-index: -1;
+  transform-origin: center;
+  transform: translateZ(-4px) scale(5);
+}
+
+body .parallaxHeader h5 {
+  display: block;
+  position: relative;
+  z-index: -1;
+  transform-origin: center;
+  transform: translateZ(-5px) scale(6);
+}
+
+body .parallaxHeader h6 {
+  display: block;
+  position: relative;
+  z-index: -1;
+  transform-origin: center;
+  transform: translateZ(-6px) scale(7);
+}
+
+body .parallaxHeader small {
+  display: block;
+  position: relative;
+  z-index: -1;
+  transform-origin: center;
+  transform: translateZ(-7px) scale(8);
+}
+
+body .parallaxHeader p {
+  display: block;
+  position: relative;
+  z-index: -1;
+  transform-origin: center;
+  transform: translateZ(-8px) scale(9);
+}

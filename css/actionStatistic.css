@@ -1,0 +1,311 @@
+#actionStatistic {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    padding-top: 0.1px;
+}
+
+#actionStatistic:hover #motivationHeadline #firstBottomBorder {
+    margin: auto;
+    margin-top: 2vh;
+    width: 90%;
+    height: 0.7vh;
+    background-color: #a3b3ed;
+    transition: 0.5s;
+}
+
+#actionStatistic:hover #motivationHeadline #secondBottomBorder {
+    margin: auto;
+    margin-top: 1vh;
+    width: 50%;
+    height: 0.7vh;
+    background-color: #ff3942;
+    transition: 0.5s;
+    transition-delay: 0.3s;
+}
+
+.circleStatisticText {
+    width: 30vw;
+    height: 7vw;
+    border-radius: 0.1vw;
+    background-color: white;
+    transition: 0.5s;
+    display: flex;
+}
+
+#circleStatisticTexts {
+    width: 60vw;
+    height: 35vw;
+    margin-left: 48vw;
+    margin-top: -31vw;
+    background-image: url(../img/fonCircle.png);
+    background-size: 1%;
+    padding-top: 0.1px;
+    border-top-left-radius: 1vw;
+    border-bottom-left-radius: 1vw;  
+    animation-name: circleStatisticsFon;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.problemStatistic {
+    color: white;
+    font-size: 48pt;
+    margin: auto;
+    width: max-content;
+    height: max-content;
+}
+
+.circleStatTextForm {
+    width: 90%;
+    height: 60%;
+    background-color: white;
+    margin: auto;
+    border-radius: 0.1vw;
+}
+
+/*                    first circle                   */
+
+#firstCircleStat {
+    position: relative;
+    z-index: 2;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 7.5vw;
+    margin-left: 15vw; 
+    margin-top: 1vw;
+    background-color: #a3b3ed;
+    transition: 0.5s;
+    display: flex;
+}
+
+#firstCircleStat:hover {
+    width: 17vw;
+    height: 17vw;
+    border-radius: 8.5vw;
+    margin-left: 14vw; 
+    margin-top: 0vw;
+    transition: 0.5s;
+}
+
+#firstCircleStat:hover ~ #secondCircleStat{
+    margin-top: -5.5vw;
+    transition: 0.5s;
+}
+
+#firstCircleText {
+    background-color: rgb(171, 61, 223);
+    margin-left: 8vw;
+    margin-top: calc(3vw - 0.1px);
+}
+
+#firstCircleText:hover {
+    margin-left: 7.5vw;
+    margin-top: calc(2.75vw - 0.1px);
+    width: 31vw;
+    height: 7.5vw;
+}
+
+#firstCircleText:hover ~ #secondCircleText {
+    margin-top: 2.75vw;
+}
+
+#firstCircleStatProblem {
+    font-size: 5vw;
+}
+
+/*                    second circle                   */
+
+#secondCirclePunktir {
+    position: relative;
+    z-index: 1;
+    width: 1.5vw;
+    height: 13.8vw;
+    background-image: url(../img/punktir.png);
+    background-repeat: repeat-y;
+    margin-left: 33vw;
+    margin-top: -15vw;
+    transform: rotate(-60deg);
+    transition: 0.5s;
+}
+
+#secondCircleStat {
+    position: relative;
+    z-index: 2;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 5vw;
+    margin-left: 37vw; 
+    margin-top: -4.5vw;
+    background-color: #ff3942;
+    transition: 0.5s;
+    display: flex;
+}
+
+#secondCircleStat:hover {
+    width: 12vw;
+    height: 12vw;
+    border-radius: 6vw;
+    margin-left: 36vw; 
+    margin-top: -5.5vw;
+    transition: 0.5s;
+}
+
+#secondCircleStat:hover ~ #secondCirclePunktir{
+    margin-top: -16vw;
+    transition: 0.5s;
+}
+
+#secondCircleText {
+    background-color: rgb(30, 91, 224);
+    margin: auto;
+    margin-top: 3vw;
+}
+
+#secondCircleText:hover {
+    margin-top: 2.75vw;
+    width: 31vw;
+    height: 7.5vw;
+}
+
+#secondCircleText:hover ~ #thirdCircleText {
+    margin-top: 5.75vw;
+}
+
+#secondCircleStatProblem {
+    font-size: 4vw;
+}
+
+/*                    third circle                   */
+
+#thirdCirclePunktir {
+    position: relative;
+    z-index: 1;
+    width: 1.5vw;
+    height: 15vw;
+    background-image: url(../img/punktir.png);
+    background-repeat: repeat-y;
+    margin-left: 33vw;
+    margin-top: -17vw;
+    transform: rotate(45deg);
+    transition: 0.5s;
+}
+
+#thirdCircleStat {
+    position: relative;
+    z-index: 2;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 4vw;
+    margin-left: 24.5vw; 
+    margin-top: 5.5vw;
+    background-color: #a3b3ed;
+    transition: 0.5s;
+    display: flex;
+}
+
+#thirdCircleStat:hover {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 5vw;
+    margin-left: 23.5vw; 
+    margin-top: 4.5vw;
+    transition: 0.5s;
+}
+
+#thirdCircleStat:hover ~ #thirdCirclePunktir{
+    margin-top: -18vw;
+    transition: 0.5s;
+    transition-delay: 0.3s;
+}
+
+#thirdCircleText {
+    background-color: rgb(59, 214, 59);
+    margin-left: 3vw;
+    margin-top: 6vw;
+}
+
+#thirdCircleText:hover {
+    margin-left: 2.5vw;
+    margin-top: 5.75vw;
+    width: 31vw;
+    height: 7.5vw;
+}
+
+#thirdCircleStatProblem {
+    font-size: 3vw;
+}
+
+@keyframes circleStatisticsFon {
+    0% {
+        background-image: url(../img/fonCircle1.png);
+    }
+
+    10% {
+        background-image: url(../img/zero.png);
+    }
+
+    12% {
+        background-image: url(../img/fonCircle3.png);
+    }
+
+    22% {
+        background-image: url(../img/zero.png);
+    }
+
+    24% {
+        background-image: url(../img/fonCircle5.png);
+    }
+
+    34% {
+        background-image: url(../img/zero.png);
+    }
+
+    36% {
+        background-image: url(../img/fonCircle2.png);
+    }
+
+    46% {
+        background-image: url(../img/zero.png);
+    }
+
+    48% {
+        background-image: url(../img/fonCircle4.png);
+    }
+
+    58% {
+        background-image: url(../img/zero.png);
+    }
+
+    61% {
+        background-image: url(../img/fonCircle3.png);
+    }
+
+    71% {
+        background-image: url(../img/zero.png);
+    }
+
+    74% {
+        background-image: url(../img/fonCircle4.png);
+    }
+
+    84% {
+        background-image: url(../img/zero.png);
+    }
+
+    87% {
+        background-image: url(../img/fonCircle5.png);
+    }
+
+    97% {
+        background-image: url(../img/zero.png);
+    }
+
+    100% {
+        background-image: url(../img/fonCircle1.png);
+    }
+
+}

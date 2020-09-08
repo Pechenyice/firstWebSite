@@ -1,0 +1,191 @@
+#secondDiv {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 1500px;
+    background-color: whitesmoke;  
+}
+
+#firstStr {
+    padding: 0px;
+    width: calc(100% - 300px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px; 
+    background-color: whitesmoke;  
+}
+
+#secondDiv #firstStr #leftDiv {
+    float: left;
+    clear: right;
+    border: #545454 4px solid;
+    margin-left: 50px; 
+    margin-top: 50px; 
+    margin-right: 50px; 
+    width:  550px;
+    height: 525px;
+    background-color: #a3b3ed;
+    transition: 0.5s;
+}
+
+#secondDiv #firstStr #leftDiv:hover {
+    border: #a3b3ed 4px solid;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 15px; 
+    width:  650px;
+    height: 650px;
+    background-color: #e6e2ff ;
+    transition: 0.5s;
+}
+
+#secondDiv #firstStr #leftDiv p {
+    line-height: 22px;
+    margin: 50px;
+    width: 450px;
+    color: rgb(255, 255, 255);
+    font-size: 12pt;
+    text-indent: 1em;
+    font-family: Bookman, URW Bookman L, serif;
+    line-height: 20px;
+    text-align: justify;
+    transition: 0.5s;
+}
+
+#secondDiv #firstStr #leftDiv:hover p {
+    margin: 100px;
+    width: 450px;
+    color: black;
+    text-align: justify;
+}
+
+#secondDiv #firstStr #rightDiv {
+    float: left;
+    margin-left: 0px; 
+    margin-top: 50px; 
+    border: #545454 4px solid;
+    width:  550px;
+    height: 525px;
+    background-color: #ffb252;
+    transition: 0.5s;
+}
+
+#secondDiv #firstStr #rightDiv:hover {
+    position: relative;
+    border: #ffb252 4px solid;
+    margin-top: 0px;
+    margin-left: calc(100% - 600px - 550px - 166px);
+    width:  650px;
+    height: 650px;
+    background-color: #fff6d2;
+    transition: 0.5s;
+    margin-right: 0px;
+}
+
+#secondDiv #firstStr #rightDiv p {
+    margin: 50px;
+    width: 450px;
+    color: rgb(255, 255, 255);
+    font-size: 12pt;
+    text-indent: 1em;
+    font-family: Bookman, URW Bookman L, serif;
+    line-height: 20px;
+    text-align: justify;
+    transition: 0.5s;
+}
+
+#secondDiv #firstStr #rightDiv:hover p {
+    margin: 100px;
+    width: 450px;
+    color: black;
+    text-align: justify;
+    transition: 0.5s;
+}
+/*---------------------------------------------------------------*/
+#secondDiv #firstStr .left1Div {
+    float: left;
+    clear: right;
+    border: #545454 4px solid;
+    margin-left: 50px; 
+    margin-top: 50px; 
+    margin-right: 50px; 
+    width:  550px;
+    height: 525px;
+    background-color: #9ad27a;
+    transition: 0.5s;
+}
+
+#secondDiv #firstStr .left1Div:hover {
+    border: #9ad27a 4px solid;
+    margin-top: 16px;
+    margin-left: 0px;
+    margin-right: 15px; 
+    width:  650px;
+    height: 650px;
+    background-color: #eaffda;
+    transition: 0.5s;
+}
+
+#secondDiv #firstStr .left1Div p {
+    margin: 50px;
+    width: 450px;
+    color: rgb(255, 255, 255);
+    font-size: 12pt;
+    text-indent: 1em;
+    font-family: Bookman, URW Bookman L, serif;
+    line-height: 20px;
+    text-align: justify;
+    transition: 0.5s;
+}
+
+#secondDiv #firstStr .left1Div:hover p {
+    margin: 100px;
+    width: 450px;
+    color: black;
+    text-align: justify;
+    transition: 0.5s;
+}
+
+#secondDiv #firstStr .right1Div {
+    float: left;
+    margin-left: 0px; 
+    margin-top: 50px; 
+    border: #545454 4px solid;
+    width:  550px;
+    height: 525px;
+    background-color: #f46962;
+    transition: 0.5s;
+}
+
+#secondDiv #firstStr .right1Div:hover {
+    position: relative;
+    border: #f46962 4px solid;
+    margin-top: 16px;
+    margin-left: calc(100% - 600px - 550px - 166px);
+    width:  650px;
+    height: 650px;
+    background-color: #ffe6da ;
+    transition: 0.5s;
+    margin-right: 0px;
+}
+
+#secondDiv #firstStr .right1Div p {
+    margin: 50px;
+    width: 450px;
+    color: rgb(255, 255, 255);
+    font-size: 12pt;
+    text-indent: 1em;
+    font-family: Bookman, URW Bookman L, serif;
+    line-height: 20px;
+    text-align: justify;
+    transition: 0.5s;
+}
+
+#secondDiv #firstStr .right1Div:hover p {
+    margin: 100px;
+    width: 450px;
+    color: black;
+    text-align: justify;
+    transition: 0.5s;
+}

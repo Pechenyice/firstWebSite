@@ -1,0 +1,55 @@
+#sticky {
+    margin: 0;
+    padding: 0;
+    height: 295vh;
+    width: 100%;
+    background-color: cornflowerblue;
+    padding-top: 5vh;
+}
+
+#firstLeftSticky {
+    margin-left: 2%;
+    width: 96%;
+    height: 105vh;
+    background-color: brown;
+}
+
+#firstLeftStickyObject {
+    position: sticky;
+    top: 30vh;
+    width: 10%;
+    height: 10vh;
+    background-color: yellow;
+}
+
+#firstHorisontalScroll {
+    margin-left: 2%;
+    margin-top: -10vh;
+    width: 96%;
+    height: 10vh;
+    background-color: coral;
+}
+
+#firstHorisontalScrolledObject {
+    position: relative;
+    width: 10%;
+    height: 10vh;
+    background-color: green;
+}
+
+#firstRightSticky {
+    margin-left: 2%;
+    margin-top: -10vh;
+    width: 96%;
+    height: 100vh;
+    background-color: rgb(42, 50, 165);
+}
+
+#firstRightStickyObject {
+    position: sticky;
+    top: 0;
+    float: right;
+    width: 10%;
+    height: 10vh;
+    background-color: rgb(0, 255, 242);
+}

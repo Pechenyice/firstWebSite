@@ -1,0 +1,242 @@
+.legsText {
+    opacity: 0;
+    text-align: center;
+    font-size: 14pt;
+    font-family: 'Exo 2', sans-serif;
+    color: white;
+    margin-top: -40px;
+    margin-bottom: 0px;
+    height: 40px;
+    position: relative;
+    z-index: 4;
+    transition-duration: 0.2s;
+}
+
+#legs {
+    transform: rotate(-80deg);
+    opacity: 0;
+    width: 360px;
+    height: 65px;
+    position: relative;
+    z-index: 2;
+    margin-top: 180px;
+    margin-left: 375px; 
+}
+
+#legsB {
+    transform: rotate(80deg);
+    opacity: 0;
+    width: 360px;
+    height: 65px;
+    position: relative;
+    z-index: 2;
+    margin-top: -65px;
+    margin-left: 480px; 
+}
+
+#legsC {
+    transform: rotate(-85deg);
+    opacity: 0;
+    width: 360px;
+    height: 65px;
+    position: relative;
+    z-index: 2;
+    margin-top: -60px;
+    margin-left: 740px; 
+}
+
+#legsD {
+    transform: rotate(85deg);
+    opacity: 0;
+    width: 360px;
+    height: 65px;
+    position: relative;
+    z-index: 2;
+    margin-top: -65px;
+    margin-left: 820px; 
+}
+
+#legs:hover ~ #bMuscle {
+    background-image: url(../../img/body/rightTopLeg.png);
+    transition-duration: 0.2s;
+}
+
+#legsB:hover ~ #bMuscle {
+    background-image: url(../../img/body/leftTopLeg.png);
+    transition-duration: 0.2s;
+}
+
+#legsC:hover ~ #bMuscle {
+    background-image: url(../../img/body/leftBottomLeg.png);
+    transition-duration: 0.2s;
+}
+
+#legsD:hover ~ #bMuscle {
+    background-image: url(../../img/body/rightBottomLeg.png);
+    transition-duration: 0.2s;
+}
+
+
+#legs:hover ~ #type p{
+    opacity: 0;
+}
+
+#legsB:hover ~ #type p{
+    opacity: 0;
+}
+
+#legsC:hover ~ #type p{
+    opacity: 0;
+}
+
+#legsD:hover ~ #type p{
+    opacity: 0;
+}
+
+#legs:hover ~ #type .legsText{
+    opacity: 1;
+}
+
+#legsB:hover ~ #type .legsText{
+    opacity: 1;
+}
+
+#legsC:hover ~ #type .legsText{
+    opacity: 1;
+}
+
+#legsD:hover ~ #type .legsText{
+    opacity: 1;
+}
+
+
+#legs:hover ~ #description p{
+    opacity: 0;
+}
+
+#legsB:hover ~ #description p{
+    opacity: 0;
+}
+
+#legsC:hover ~ #description p{
+    opacity: 0;
+}
+
+#legsD:hover ~ #description p{
+    opacity: 0;
+}
+
+#legs:hover ~ #description .legsText{
+    opacity: 1;
+}
+
+#legsB:hover ~ #description .legsText{
+    opacity: 1;
+}
+
+#legsC:hover ~ #description .legsText{
+    opacity: 1;
+}
+
+#legsD:hover ~ #description .legsText {
+    opacity: 1;
+}
+
+
+#legs:hover ~ #time p{
+    opacity: 0;
+}
+
+#legsB:hover ~ #time p{
+    opacity: 0;
+}
+
+#legsC:hover ~ #time p{
+    opacity: 0;
+}
+
+#legsD:hover ~ #time p{
+    opacity: 0;
+}
+
+#legs:hover ~ #time .legsText{
+    opacity: 1;
+}
+
+#legsB:hover ~ #time .legsText{
+    opacity: 1;
+}
+
+#legsC:hover ~ #time .legsText{
+    opacity: 1;
+}
+
+#legsD:hover ~ #time .legsText{
+    opacity: 1;
+}
+
+
+#legs:hover ~ #protiv p{
+    opacity: 0;
+}
+
+#legsB:hover ~ #protiv p{
+    opacity: 0;
+}
+
+#legsC:hover ~ #protiv p{
+    opacity: 0;
+}
+
+#legsD:hover ~ #protiv p{
+    opacity: 0;
+}
+
+#legs:hover ~ #protiv .legsText{
+    opacity: 1;
+}
+
+#legsB:hover ~ #protiv .legsText{
+    opacity: 1;
+}
+
+#legsC:hover ~ #protiv .legsText{
+    opacity: 1;
+}
+
+#legsD:hover ~ #protiv .legsText{
+    opacity: 1;
+}
+
+
+#legs:hover ~ #attract p{
+    opacity: 0;
+}
+
+#legsB:hover ~ #attract p{
+    opacity: 0;
+}
+
+#legsC:hover ~ #attract p{
+    opacity: 0;
+}
+
+#legsD:hover ~ #attract p{
+    opacity: 0;
+}
+
+#legs:hover ~ #attract .legsText{
+    opacity: 1;
+}
+
+#legsB:hover ~ #attract .legsText{
+    opacity: 1;
+}
+
+#legsC:hover ~ #attract .legsText{
+    opacity: 1;
+}
+
+#legsD:hover ~ #attract .legsText{
+    opacity: 1;
+}

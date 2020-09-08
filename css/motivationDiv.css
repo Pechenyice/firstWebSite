@@ -1,0 +1,1148 @@
+#motivationDiv {
+    padding-top: 5vh; 
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.advertisment {
+    width: 40%;
+    height: 65vh;
+}
+
+#motivationHeadline {
+    margin-top: 0;
+    padding-top: 0; 
+}
+
+#centeredAdds {
+    width: 100%;
+    height: max-content;
+    min-height: 65vh;
+}
+
+/*                adds                       */
+
+.addsZig {
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    margin-top: -140%;
+    width: 80%;
+    height: 10%;
+    background-image: url(../img/zigzag.png);
+    background-repeat: repeat-x;
+    background-size: 100%;
+    animation-name: firstAppearenceZig1;
+    animation-duration: 0.8s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.lastAddsZig {
+    margin: auto;
+    width: 80%;
+    height: 10%;
+    margin-top: -31%;
+    animation-name: firstAppearenceZig1;
+    animation-duration: 0.8s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.addsLogo {
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    width: 50%;
+    height: 8vh;
+    margin-top: -20vh;
+    background-image: url(../img/logoAdventure.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name: firstAppearenceZig1;
+    animation-duration: 0.8s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.addsH1 {
+    position: relative;
+    z-index: 2;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40pt;
+    color: white;
+    width: max-content;
+    margin: 0 auto;
+    margin-top: -10%;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.addsP {
+    position: relative;
+    z-index: 2;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20pt;
+    color: white;
+    width: max-content;
+    margin: 0 auto;
+    margin-top: -10%;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.addsTabs {
+    border: 1px white solid;
+    position: relative;
+    z-index: 2;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20pt;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 7px 35px;
+    width: max-content;
+    margin: 0 auto;
+    margin-top: 7%;
+    opacity: 0;
+    transition: 0.2s;
+    transition-delay: 0s;
+}
+
+.addsTabs:hover {
+    background-color: red;
+    color: white;
+    transition: 0.3s;
+    transition-delay: 0s;
+}
+
+/*           first                         */
+
+#firstAdd {
+    border: 0.1px white solid;
+    position: relative;
+    z-index: 1;
+    width: 10%;
+    overflow: hidden;
+    margin-left: 10%;
+    background-image: url(../img/motivCar.jpg);
+    background-size: cover;
+    transition: 0.5s;
+}
+
+#firstAdd:hover {
+    width: 40%;
+    margin-left: 10%;
+    transition: 0.5s;
+}
+
+#firstAdd:hover ~ #cloudsZIndex {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#firstAdd:hover ~ #secondAdd {
+    margin-left: 50%;
+    width: 10%;
+    transition: 0.5s;
+}
+
+#firstAdd:hover ~ #thirdAdd {
+    margin-left: 60%;
+    width: 10%;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+#firstAdd:hover ~ #fourthAdd {
+    margin-left: 70%;
+    width: 10%;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+#firstAdd:hover ~ #fifthAdd {
+    margin-left: 80%;
+    transition: 0.5s;
+}
+
+#fakeFirstAdd {
+    border: 0.1px white solid;
+    width: 100%;
+    height: 65vh;
+    transition: 0.5s;
+    background: #000000;
+    opacity: 0;
+    position: relative;
+    z-index: 1;
+}
+
+#firstAdd:hover #fakeFirstAdd {
+    transition: 1s;
+    transition-delay: 0.2s;
+    opacity: 0.5;
+}
+
+#firstAdd:hover .addsH1 {
+    transition: 1s;
+    transition-delay: 0.7s;
+    margin-top: -30%;
+    opacity: 1;
+}
+
+#firstAdd:hover .addsP {
+    transition: 1s;
+    transition-delay: 0.7s;
+    margin-top: 25%;
+    opacity: 1;
+}
+
+#firstAdd:hover .addsTabs {
+    animation-name: firstAppearence;
+    animation-duration: 1.7s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    transition: 0.5s;
+    transition-delay: 0s;
+    opacity: 1;
+}
+
+#firstAdd:hover .addsTabs:hover {
+    transition: 0.5s;
+    transition-delay: 0s;
+}
+
+#addsLogoFirst {
+    background-image: url(../img/logoCar.png);
+    background-size: contain;
+}
+
+#firstAdd:hover .addsZig {
+    position: relative;
+    z-index: 2;
+    margin-left: 15%;
+    margin-top: -40%;
+    width: 25%;
+    height: 10%;
+    background-image: url(../img/zigzag.png);
+    background-repeat: repeat-x;
+    background-size: 100%;
+    opacity: 1;
+    animation-name: firstAppearenceZig;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+#firstAdd:hover .lastAddsZig {
+    margin-left: 60%;
+    margin-top: -8%;
+    animation-name: firstAppearenceZig;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+#firstAdd:hover .addsLogo {
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    width: 13%;
+    height: 8vh;
+    margin-top: -10vh;
+    background-size: contain;
+    animation-name: firstAppearenceZig;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+/*           second                           */
+
+#secondAdd {
+    border: 0.1px white solid;
+    background-image: url(../img/motivWood.jpg);
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+    width: 10%;
+    overflow: hidden;
+    margin-top: -65vh;
+    margin-left: 20%;
+    transition: 0.5s;
+}
+
+#secondAdd:hover {
+    width: 40%;
+    margin-left: 20%;
+    transition: 0.5s;
+}
+
+#secondAdd:hover ~ #cloudsZIndex {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#secondAdd:hover ~ #thirdAdd {
+    margin-left: 60%;
+    transition: 0.5s;
+}
+
+#secondAdd:hover ~ #fourthAdd {
+    margin-left: 70%;
+    transition: 0.5s;
+}
+
+#secondAdd:hover ~ #fifthAdd {
+    margin-left: 80%;
+    transition: 0.5s;
+}
+
+#fakeSecondAdd {
+    border: 0.1px white solid;
+    width: 100%;
+    height: 65vh;
+    transition: 0.5s;
+    background: #000000;
+    opacity: 0;
+    position: relative;
+    z-index: 1;
+}
+
+#secondAdd:hover #fakeSecondAdd {
+    transition: 1s;
+    transition-delay: 0.2s;
+    opacity: 0.5;
+}
+
+#secondAdd:hover .addsH1 {
+    transition: 1s;
+    transition-delay: 0.7s;
+    margin-top: -30%;
+    opacity: 1;
+}
+
+#secondAdd:hover .addsP {
+    transition: 1s;
+    transition-delay: 0.7s;
+    margin-top: 25%;
+    opacity: 1;
+}
+
+#secondAdd:hover .addsTabs {
+    animation-name: firstAppearence;
+    animation-duration: 1.7s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    transition: 0.5s;
+    transition-delay: 0s;
+    opacity: 1;
+}
+
+#secondAdd:hover .addsTabs:hover {
+    transition: 0.5s;
+    transition-delay: 0s;
+}
+
+#addsLogoSecond {
+    background-image: url(../img/logoWood.png);
+    background-size: contain;
+}
+
+#secondAdd:hover .addsZig {
+    position: relative;
+    z-index: 2;
+    margin-left: 15%;
+    margin-top: -40%;
+    width: 25%;
+    height: 10%;
+    background-image: url(../img/zigzag.png);
+    background-repeat: repeat-x;
+    background-size: 100%;
+    opacity: 1;
+    animation-name: firstAppearenceZig;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+#secondAdd:hover .lastAddsZig {
+    margin-left: 60%;
+    margin-top: -8%;
+    animation-name: firstAppearenceZig;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+#secondAdd:hover .addsLogo {
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    width: 13%;
+    height: 8vh;
+    margin-top: -10vh;
+    background-size: contain;
+    animation-name: firstAppearenceZig;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+
+/*           third                           */
+
+#thirdAdd {
+    border: 0.1px white solid;
+    background-image: url(../img/motivFood.jpg);
+    background-size: cover;
+    position: relative;
+    z-index: 3;
+    width: 10%;
+    overflow: hidden;
+    margin-top: -65vh;
+    margin-left: 30%;
+    background-color: rgb(123, 255, 0);
+    transition: 0.5s;
+}
+
+#thirdAdd:hover {
+    width: 40%;
+    margin-left: 30%;
+    transition: 0.5s;
+}
+
+#thirdAdd:hover ~ #cloudsZIndex {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#thirdAdd:hover ~ #fourthAdd {
+    margin-left: 70%;
+    transition: 0.5s;
+}
+
+#thirdAdd:hover ~ #fifthAdd {
+    margin-left: 80%;
+    transition: 0.5s;
+}
+
+#fakeThirdAdd {
+    border: 0.1px white solid;
+    width: 100%;
+    height: 65vh;
+    transition: 0.5s;
+    background: #000000;
+    opacity: 0;
+    position: relative;
+    z-index: 1;
+}
+
+#thirdAdd:hover #fakeThirdAdd {
+    transition: 1s;
+    transition-delay: 0.2s;
+    opacity: 0.5;
+}
+
+#thirdAdd:hover .addsH1 {
+    transition: 1s;
+    transition-delay: 0.7s;
+    margin-top: -30%;
+    opacity: 1;
+}
+
+#thirdAdd:hover .addsP {
+    transition: 1s;
+    transition-delay: 0.7s;
+    margin-top: 25%;
+    opacity: 1;
+}
+
+#thirdAdd:hover .addsTabs {
+    animation-name: firstAppearence;
+    animation-duration: 1.7s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    transition: 0.5s;
+    transition-delay: 0s;
+    opacity: 1;
+}
+
+#thirdAdd:hover .addsTabs:hover {
+    transition: 0.5s;
+    transition-delay: 0s;
+}
+
+#addsLogoThird {
+    background-image: url(../img/logoFood.png);
+    background-size: contain;
+}
+
+#thirdAdd:hover .addsZig {
+    position: relative;
+    z-index: 2;
+    margin-left: 15%;
+    margin-top: -40%;
+    width: 25%;
+    height: 10%;
+    background-image: url(../img/zigzag.png);
+    background-repeat: repeat-x;
+    background-size: 100%;
+    opacity: 1;
+    animation-name: firstAppearenceZig;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+#thirdAdd:hover .lastAddsZig {
+    margin-left: 60%;
+    margin-top: -8%;
+    animation-name: firstAppearenceZig;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+#thirdAdd:hover .addsLogo {
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    width: 13%;
+    height: 8vh;
+    margin-top: -10vh;
+    background-size: contain;
+    animation-name: firstAppearenceZig;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+
+/*           fourth                         */
+
+#fourthAdd {
+    border: 0.1px white solid;
+    background-image: url(../img/motivAdventure.jpg);
+    background-size: cover;
+    position: relative;
+    z-index: 4;
+    width: 10%;
+    overflow: hidden;
+    margin-top: -65vh;
+    margin-left: 40%;
+    background-color: rgb(0, 225, 255);
+    transition: 0.5s;
+}
+
+#fourthAdd:hover {
+    width: 40%;
+    margin-left: 40%;
+    transition: 0.5s;
+}
+
+#fourthAdd:hover ~ #cloudsZIndex {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#fourthAdd:hover ~ #fifthAdd {
+    margin-left: 80%;
+    transition: 0.5s;
+}
+
+#fakeFourthAdd {
+    border: 0.1px white solid;
+    width: 100%;
+    height: 65vh;
+    transition: 0.5s;
+    background: #000000;
+    opacity: 0;
+    position: relative;
+    z-index: 1;
+}
+
+#fourthAdd:hover #fakeFourthAdd {
+    transition: 1s;
+    transition-delay: 0.2s;
+    opacity: 0.5;
+}
+
+#fourthAdd:hover .addsH1 {
+    transition: 1s;
+    transition-delay: 0.7s;
+    margin-top: -30%;
+    opacity: 1;
+}
+
+#fourthAdd:hover .addsP {
+    transition: 1s;
+    transition-delay: 0.7s;
+    margin-top: 25%;
+    opacity: 1;
+}
+
+#fourthAdd:hover .addsTabs {
+    animation-name: firstAppearence;
+    animation-duration: 1.7s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    transition: 0.5s;
+    transition-delay: 0s;
+    opacity: 1;
+}
+
+#fourthAdd:hover .addsTabs:hover {
+    transition: 0.5s;
+    transition-delay: 0s;
+}
+
+#addsLogoFourth {
+    background-image: url(../img/logoAdventure.png);
+    background-size: contain;
+}
+
+#fourthAdd:hover .addsZig {
+    position: relative;
+    z-index: 2;
+    margin-left: 15%;
+    margin-top: -40%;
+    width: 25%;
+    height: 10%;
+    background-image: url(../img/zigzag.png);
+    background-repeat: repeat-x;
+    background-size: 100%;
+    opacity: 1;
+    animation-name: firstAppearenceZig;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+#fourthAdd:hover .lastAddsZig {
+    margin-left: 60%;
+    margin-top: -8%;
+    animation-name: firstAppearenceZig;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+#fourthAdd:hover .addsLogo {
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    width: 13%;
+    height: 8vh;
+    margin-top: -10vh;
+    background-size: contain;
+    animation-name: firstAppearenceZig;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+/*           fifth                         */
+
+#fifthAdd {
+    border: 0.1px white solid;
+    background-image: url(../img/motivArround.jpg);
+    background-size: cover;
+    position: relative;
+    z-index: 5;
+    width: 10.1%;
+    overflow: hidden;
+    margin-top: -65vh;
+    margin-left: 49.9%;
+    background-color: rgb(255, 145, 0);
+    transition: 0.5s;
+}
+
+#fifthAdd:hover {
+    width: 40%;
+    transition: 0.5s;
+}
+
+#fifthAdd:hover ~ #cloudsZIndex {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#fakeFifthAdd {
+    border: 0.1px white solid;
+    width: 100%;
+    height: 65vh;
+    transition: 0.5s;
+    background: #000000;
+    opacity: 0;
+    position: relative;
+    z-index: 1;
+}
+
+#fifthAdd:hover #fakeFifthAdd {
+    transition: 1s;
+    transition-delay: 0.2s;
+    opacity: 0.5;
+}
+
+#fifthAdd:hover .addsH1 {
+    transition: 1s;
+    transition-delay: 0.7s;
+    margin-top: -30%;
+    opacity: 1;
+}
+
+#fifthAdd:hover .addsP {
+    transition: 1s;
+    transition-delay: 0.7s;
+    margin-top: 25%;
+    opacity: 1;
+}
+
+#fifthAdd:hover .addsTabs {
+    animation-name: firstAppearence;
+    animation-duration: 1.7s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    transition: 0.5s;
+    transition-delay: 0s;
+    opacity: 1;
+}
+
+#fifthAdd:hover .addsTabs:hover {
+    transition: 0.5s;
+    transition-delay: 0s;
+}
+
+#addsLogoFifth {
+    background-image: url(../img/logoArround.png);
+    background-size: contain;
+}
+
+#fifthAdd:hover .addsZig {
+    position: relative;
+    z-index: 2;
+    margin-left: 15%;
+    margin-top: -40%;
+    width: 25%;
+    height: 10%;
+    background-image: url(../img/zigzag.png);
+    background-repeat: repeat-x;
+    background-size: 100%;
+    opacity: 1;
+    animation-name: firstAppearenceZig;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+#fifthAdd:hover .lastAddsZig {
+    margin-left: 60%;
+    margin-top: -8%;
+    animation-name: firstAppearenceZig;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+#fifthAdd:hover .addsLogo {
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    width: 13%;
+    height: 8vh;
+    margin-top: -10vh;
+    background-size: contain;
+    animation-name: firstAppearenceZig;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+/*                    headLine                       */
+#motivationDiv #motivationHeadline #firstBottomBorder {
+    margin: auto;
+    margin-top: 2vh;
+    width: 0%;
+    height: 0.7vh;
+    background-color: #a3b3ed;
+    transition: 0.5s;
+    transition-delay: 0.3s;
+}
+
+#motivationDiv #motivationHeadline #secondBottomBorder {
+    margin: auto;
+    margin-top: 1vh;
+    width: 0%;
+    height: 0.7vh;
+    background-color: #ff3942;
+    transition: 0.5s;
+}
+
+#motivationDiv:hover #motivationHeadline #firstBottomBorder {
+    margin: auto;
+    margin-top: 2vh;
+    width: 90%;
+    height: 0.7vh;
+    background-color: #a3b3ed;
+    transition: 0.5s;
+}
+
+#motivationDiv:hover #motivationHeadline #secondBottomBorder {
+    margin: auto;
+    margin-top: 1vh;
+    width: 50%;
+    height: 0.7vh;
+    background-color: #ff3942;
+    transition: 0.5s;
+    transition-delay: 0.3s;
+}
+
+/*                  second  headLine                   */
+
+#motivationBlockHeadline {
+    margin-top: -40vh;
+    margin-left: 60vw;
+}
+
+#centeredAdds #motivationBlockHeadline #firstBottomBorder {
+    margin: auto;
+    margin-top: 2vh;
+    width: 0%;
+    height: 0.7vh;
+    background-color: #a3b3ed;
+    transition: 0.5s;
+    transition-delay: 0.3s;
+}
+
+#centeredAdds #motivationBlockHeadline #secondBottomBorder {
+    margin: auto;
+    margin-top: 1vh;
+    width: 0%;
+    height: 0.7vh;
+    background-color: #ff3942;
+    transition: 0.5s;
+}
+
+#centeredAdds:hover #motivationBlockHeadline #firstBottomBorder {
+    margin: auto;
+    margin-top: 2vh;
+    width: 90%;
+    height: 0.7vh;
+    background-color: #a3b3ed;
+    transition: 0.5s;
+}
+
+#centeredAdds:hover #motivationBlockHeadline #secondBottomBorder {
+    margin: auto;
+    margin-top: 1vh;
+    width: 50%;
+    height: 0.7vh;
+    background-color: #ff3942;
+    transition: 0.5s;
+    transition-delay: 0.3s;
+}
+
+/*                animation                 */
+#cloudsZIndex {
+    position: relative;
+    z-index: 0;
+    opacity: 1;
+    transition: 0.5s;
+    width: min-content;
+}
+
+
+#cloud2 {
+    background-image: url(../img/cloud2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 15vw;
+    height: 30vh;
+    margin-top: -25vh;
+    margin-left: 60vw;
+    animation-name: cloud2move;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    transition: 0.5s;
+}
+
+#centeredAdds:hover #cloud2 {
+    margin-top: -15vh;
+    margin-left: 55vw;
+    transition: 0.5s;
+    animation-name: cloud2move;
+}
+
+#cloud1 {
+    background-image: url(../img/cloud1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 12vw;
+    height: 24vh;
+    margin-top: -30vh;
+    margin-left: 87vw;
+    animation-name: cloud1move;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    transition: 0.5s;
+}
+
+#centeredAdds:hover #cloud1 {
+    margin-top: -20vh;
+    margin-left: 80vw;
+    transition: 0.5s;
+    animation-name: cloud1move;
+}
+
+#cloud3 {
+    background-image: url(../img/cloud3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 17vw;
+    height: 34vh;
+    margin-top: -33vh;
+    margin-left: 66.5vw;
+    animation-name: cloud3move;
+    animation-iteration-count: infinite;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    transition: 0.5s;
+}
+
+#centeredAdds:hover #cloud3 {
+    margin-top: -70vh;
+    margin-left: 60vw;
+    transition: 0.5s;
+    animation-name: cloud3move;
+}
+
+#cloud4 {
+    background-image: url(../img/cloud4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 20vw;
+    height: 40vh;
+    margin-top: -30vh;
+    margin-left: 75vw;
+    animation-name: cloud4move;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    transition: 0.5s;
+}
+
+#centeredAdds:hover #cloud4 {
+    margin-top: -30vh;
+    margin-left: 80vw;
+    transition: 0.5s;
+    animation-name: cloud4move;
+}
+
+@keyframes firstAppearence {
+    0% {
+        opacity: 0;
+    }
+    90% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes firstAppearenceZig {
+    0% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes firstAppearenceZig1 {
+    0% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+@keyframes cloud2move {
+    0% {
+        transform: translate(0.5vh, 0);
+    }
+    5% {
+        transform: translate(-0.5vh, 0);
+    }
+    10% {
+        transform: translate(-1vh, -1vh);
+    }
+    20% {
+        transform: translate(1vh, 1vh);
+    }
+    30% {
+        transform: translate(0, -1vh);
+    }
+    40% {
+        transform: translate(-1vh, 1vh);
+    }
+    50% {
+        transform: translate(0, -1vh);
+    }
+    60% {
+        transform: translate(1vh, 0);
+    }
+    70% {
+        transform: translate(-1vh, 1vh);
+    }
+    80% {
+        transform: translate(0vh, -1vh);
+    }
+    90% {
+        transform: translate(1vh, 1vh);
+    }
+    95% {
+        transform: translate(-0.5vh, 0);
+    }
+    100% {
+        transform: translate(0.5vh, 0);
+    }
+}
+
+@keyframes cloud1move {
+    0% {
+        transform: translate(1vh, 1vh);
+    }
+    5% {
+        transform: translate(-0.5vh, -0.5vh);
+    }
+    10% {
+        transform: translate(-0.5vh, -0.5vh);
+    }
+    20% {
+        transform: translate(1vh, 0);
+    }
+    30% {
+        transform: translate(-1vh, 0);
+    }
+    40% {
+        transform: translate(1vh, -1vh);
+    }
+    50% {
+        transform: translate(0, -1vh);
+    }
+    60% {
+        transform: translate(-1vh, 1vh);
+    }
+    70% {
+        transform: translate(-2vh, 1vh);
+    }
+    80% {
+        transform: translate(0, -1vh);
+    }
+    90% {
+        transform: translate(1vh, 1vh);
+    }
+    95% {
+        transform: translate(0, -1vh);
+    }
+    100% {
+        transform: translate(1vh, 1vh);
+    }
+}
+
+@keyframes cloud3move {
+    0% {
+        transform: translate(1vh, 0);
+    }
+    5% {
+        transform: translate(0.5vh, -0.5vh);
+    }
+    10% {
+        transform: translate(-0.5vh, 0.5vh);
+    }
+    20% {
+        transform: translate(-1vh, 0);
+    }
+    30% {
+        transform: translate(2vh, -2vh);
+    }
+    40% {
+        transform: translate(-1vh, 1vh);
+    }
+    50% {
+        transform: translate(-1vh, -1vh);
+    }
+    60% {
+        transform: translate(0, 2vh);
+    }
+    70% {
+        transform: translate(0, 1vh);
+    }
+    80% {
+        transform: translate(-1vh, 0);
+    }
+    90% {
+        transform: translate(1vh, 1vh);
+    }
+    95% {
+        transform: translate(-1vh, -2vh);
+    }
+    100% {
+        transform: translate(1vh, 0);
+    }
+}
+
+@keyframes cloud4move {
+    0% {
+        transform: translate(0, 0.5vh);
+    }
+    5% {
+        transform: translate(-0.5vh, 0);
+    }
+    10% {
+        transform: translate(0.5vh, -0.5vh);
+    }
+    20% {
+        transform: translate(1vh, 0);
+    }
+    30% {
+        transform: translate(0, 1vh);
+    }
+    40% {
+        transform: translate(-1vh, -1vh);
+    }
+    50% {
+        transform: translate(1vh, -1vh);
+    }
+    60% {
+        transform: translate(-1vh, 1vh);
+    }
+    70% {
+        transform: translate(0, 1vh);
+    }
+    80% {
+        transform: translate(-1vh, -1vh);
+    }
+    90% {
+        transform: translate(1vh, 0vh);
+    }
+    95% {
+        transform: translate(0, -0.5vh);
+    }
+    100% {
+        transform: translate(0, 0.5vh);
+    }
+}

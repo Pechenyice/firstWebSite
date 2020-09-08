@@ -1,0 +1,128 @@
+#grud {
+    opacity: 0;
+    position: relative;
+    z-index: 3;
+    width: 110px;
+    height: 60px;
+    margin-top: -170px;
+    margin-left: 550px; 
+}
+
+#grudB {
+    opacity: 0;
+    position: relative;
+    z-index: 3;
+    width: 120px;
+    height: 70px;
+    margin-top: -70px;
+    margin-left: 900px; 
+}
+
+.grudText {
+    opacity: 0;
+    text-align: center;
+    transition-duration: 0.5s;
+    font-size: 14pt;
+    font-family: 'Exo 2', sans-serif;
+    color: white;
+    margin-top: -40px;
+    margin-bottom: 0px;
+    height: 40px;
+    position: relative;
+    z-index: 3;
+    transition-duration: 0.2s;
+}
+
+#grud:hover ~ #bMuscle {
+    background-image: url(../../img/body/grudTop.png);
+    transition-duration: 0.2s;
+}
+
+#grudB:hover ~ #bMuscle {
+    background-image: url(../../img/body/grudBottom.png);
+    transition-duration: 0.2s;
+}
+
+#grud:hover ~ #type p{
+    opacity: 0;
+}
+
+#grudB:hover ~ #type p{
+    opacity: 0;
+}
+
+#grud:hover ~ #type .grudText{
+    opacity: 1;
+}
+
+#grudB:hover ~ #type .grudText{
+    opacity: 1;
+}
+
+
+#grud:hover ~ #description p{
+    opacity: 0;
+}
+
+#grudB:hover ~ #description p{
+    opacity: 0;
+}
+
+#grud:hover ~ #description .grudText{
+    opacity: 1;
+}
+
+#grudB:hover ~ #description .grudText{
+    opacity: 1;
+}
+
+
+#grud:hover ~ #time p{
+    opacity: 0;
+}
+
+#grudB:hover ~ #time p{
+    opacity: 0;
+}
+
+#grud:hover ~ #time .grudText{
+    opacity: 1;
+}
+
+#grudB:hover ~ #time .grudText{
+    opacity: 1;
+}
+
+
+#grud:hover ~ #protiv p{
+    opacity: 0;
+}
+
+#grudB:hover ~ #protiv p{
+    opacity: 0;
+}
+
+#grud:hover ~ #protiv .grudText{
+    opacity: 1;
+}
+
+#grudB:hover ~ #protiv .grudText{
+    opacity: 1;
+}
+
+
+#grud:hover ~ #attract p{
+    opacity: 0;
+}
+
+#grudB:hover ~ #attract p{
+    opacity: 0;
+}
+
+#grud:hover ~ #attract .grudText{
+    opacity: 1;
+}
+
+#grudB:hover ~ #attract .grudText{
+    opacity: 1;
+}

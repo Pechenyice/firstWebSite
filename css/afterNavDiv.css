@@ -1,0 +1,203 @@
+div#afterNav {
+    margin: 0px;
+    background: linear-gradient(180deg, rgba(0, 0, 0), #101010 );
+    width: 100%;
+    height: 2000px;
+}
+
+div#afterNav h1{
+    margin: 0px;
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 120pt;
+    color: white;
+    width: 1000px;
+    text-align: center;
+
+}
+
+#afterNav #romanDiv {
+    
+    margin: 0px;
+    height: 400px;
+    width: 100%;
+    background-color: black;
+}
+
+#centeredRoman {
+    height: 400px;
+    width: 1485px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.roman {
+    margin-top: 65px;
+    color: #bebab4;
+    float: left;
+    clear: right;
+    background-image: url(../img/borderRoman1.png);
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+.roman:hover {
+    background-image: url(../img/borderRoman.png);
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+.roman span {
+    display: inline-block;
+    text-align: center;
+    height: 200px;
+    margin: 0px;
+    font-size: 34pt;
+    margin-top: 50px;
+    padding-bottom: 55px;
+    
+}
+
+.roman span p {
+    text-align: center;
+    margin: 0px;
+    margin-top: 20px; 
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 11.5pt;
+    font-family: Snell Roundhand, cursive;
+    line-height: 30px;
+    width: 175px;
+    transition: 0.5s;
+}
+
+.roman span p.real#five {
+    margin-top: -30px;
+}
+
+.roman span p.real#one {
+    margin-top: -90px;
+}
+
+.roman span p.real#two {
+    margin-top: -120px;
+}
+
+.roman span p.real#six {
+    margin-top: -90px;
+}
+
+.roman span p.real#seven {
+    margin-top: -120px;
+}
+
+.roman span p.fake {
+    overflow: hidden; 
+    position: relative;
+    opacity: 0;
+    transition: 0.5s;
+    z-index: 0;
+}
+
+.roman span p.real {
+    margin-top: -60px;
+    position: relative;
+    opacity: 1;
+    transition: 0.5s;
+    z-index: 1;
+    transition-duration: 0.5s;
+    transition-delay: 0.4s;
+}
+
+.roman:hover span p.real {
+    position: relative;
+    transition: 0.5s;
+    opacity: 0;
+    z-index: 0;
+}
+
+.roman:hover span p.fake {
+    position: relative;
+    transition-duration: 0.5s;
+    transition-delay: 0.4s;
+    opacity: 1;
+    z-index: 1;
+}
+
+.leftR {
+    margin-left: 20px; 
+}
+
+#red {
+    position: relative;
+    float: left;
+    clear: right;
+    margin-left: 150px;
+    margin-top: 200px;
+    background-image: url(../img/redGirlBW.jpg);
+    width: 400px;
+    height: 600px;
+    transition: 0.5s;
+    border: solid 4px #9f0009;
+    border-radius: 50px;
+    z-index: 1;
+}
+
+#red:hover {
+    background-image: url(../img/redGirl.jpg);
+    width: 400px;
+    height: 600px;
+    transition: 0.5s;
+}
+
+#redText {
+    position: relative;
+    margin-left: 150px;
+    margin-top: 200px;
+    background: #282828;
+    width: 400px;
+    height: 600px;
+    transition: 0.5s;
+    border: solid 4px #9f0009;
+    border-radius: 50px;
+    z-index: 0;
+}
+
+#redText p {
+    color: #ddd;
+    margin-left: 400px;
+    opacity: 0;
+    overflow: hidden;
+    width: calc(100% - 550px);
+    font-family: Snell Roundhand, cursive;
+    text-align: justify;
+    text-indent: 1em;
+}
+
+#red:hover + #redText p {
+    margin-left: 425px;
+    opacity: 1; 
+    padding: 50px;
+    transition-delay: 0.3s;
+    transition-duration: 0.5s;
+}
+
+#redText:hover p {
+    margin-left: 425px;
+    opacity: 1; 
+    padding: 50px;
+    transition-delay: 0.3s;
+    transition-duration: 0.5s;
+}
+
+#red:hover + #redText {
+    width: calc(100% - 300px);
+    height: 600px;
+    transition: 0.5s;
+}
+
+#redText:hover {
+    width: calc(100% - 300px);
+}

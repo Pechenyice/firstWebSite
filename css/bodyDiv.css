@@ -1,0 +1,149 @@
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+#muscles{
+    padding-top: 10px; 
+    width: 100%;
+    height: 140vh;
+    background-color: black;
+}
+
+#muscles h2{
+    padding-top: 5px; 
+    text-align: center;
+    font-family: 'Spectral SC', serif;
+    font-size: 16pt;
+}
+
+#muscles p{
+    margin-top: 25%;
+    margin-bottom: 0px;
+    height: 10px; 
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 14pt;
+    color: white;
+    position: relative;
+    z-index: 0;
+    transition-duration: 0.2s;
+}
+
+#bMuscle {
+    position: relative;
+    z-index: 0;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: calc(-93vh - 14px);
+    width: 50vw;
+    height: calc(93vh + 4px);
+    background-image: url(../img/body/arroundsMusclesMan.png);
+    transition-duration: 0.2s;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: solid 5px white;
+}
+
+#type {
+    color: white;
+    margin-left: 37px; 
+    margin-top: -115px;
+    width: 350px;
+    height: 31vh;
+    position: relative;
+    z-index: 0;
+    border-bottom: solid 5px white;
+}
+
+#description {
+    color: white;
+    margin-left: 37px;
+    width: 350px;
+    height: 31vh;
+    position: relative;
+    z-index: 0;
+    border-bottom: solid 5px white;
+}
+
+#time {
+    color: white;
+    margin-left: 37px; 
+    width: 350px;
+    height: 31vh;
+    position: relative;
+    z-index: 0;
+}
+
+#protiv {
+    color: white;
+    margin-left: calc(75vw - 4px); 
+    margin-top: calc(-93vh - 8px);
+    width: 350px;
+    height: 31vh;
+    position: relative;
+    z-index: 0;
+    border-bottom: solid 5px white;
+}
+
+#attract {
+    color: white;
+    margin-left: calc(75vw - 4px); 
+    width: 350px;
+    height: 31vh;
+    position: relative;
+    z-index: 0;
+    border-bottom: solid 5px white;
+}
+
+#spec {
+    color: white;
+    margin-left: calc(75vw - 4px); 
+    width: 350px;
+    height: 31vh;
+    position: relative;
+    z-index: 0;
+    background-image: url(../img/spec.png);
+}
+
+#bodyHeadline {
+    margin-top: 0vh;
+}
+
+#muscles #bodyHeadline #firstBottomBorder {
+    margin: auto;
+    margin-top: 2vh;
+    width: 0%;
+    height: 0.7vh;
+    background-color: #a3b3ed;
+    transition: 0.5s;
+    transition-delay: 0.3s;
+}
+
+#muscles #bodyHeadline #secondBottomBorder {
+    margin: auto;
+    margin-top: 1vh;
+    width: 0%;
+    height: 0.7vh;
+    background-color: #ff3942;
+    transition: 0.5s;
+}
+
+#muscles:hover #bodyHeadline #firstBottomBorder {
+    margin: auto;
+    margin-top: 2vh;
+    width: 90%;
+    height: 0.7vh;
+    background-color: #a3b3ed;
+    transition: 0.5s;
+}
+
+#muscles:hover #bodyHeadline #secondBottomBorder {
+    margin: auto;
+    margin-top: 1vh;
+    width: 50%;
+    height: 0.7vh;
+    background-color: #ff3942;
+    transition: 0.5s;
+    transition-delay: 0.3s;
+}

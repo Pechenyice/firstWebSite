@@ -1,0 +1,248 @@
+footer h1 {
+    margin: 0;
+    padding: 0;
+    padding-top: 5vh;
+    color: white;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 32pt;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+}
+
+#footerCentered {
+    margin: 0;
+    padding: 0;
+    padding-top: 10vh;
+    width: 45%;
+    height: max-content;
+    margin: 0 auto;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+footer li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: #999;
+    font-size: 16pt;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 1px;
+    margin-left: 0.5vw; 
+    margin-top: 2vh; 
+    margin-bottom: 2vh; 
+    transition: 0.3s;
+}
+
+footer li:hover {
+    transition: 0.3s;
+    color: #a3b3ed;
+}
+
+#tech li {
+    margin-left: 4vw;
+    width: 7vw;
+}
+
+#ab li {
+    margin-left: 5vw;
+    width: 5vw;
+}
+
+#sup li {
+    margin-left: 4.5vw;
+    width: 6vw;
+}
+
+#technical {
+    margin: 0;
+    padding: 0;
+    width: 15vw;
+    height: 50vh;
+    
+}
+
+#about {
+    margin: 0;
+    padding: 0;
+    width: 15vw;
+    height: 50vh;
+    margin-top: -50vh;
+    margin-left: 15vw;
+    
+}
+
+#support {
+    margin: 0;
+    padding: 0;
+    width: 15vw;
+    height: 50vh;
+    margin-top: -50vh;
+    margin-left: 30vw;
+}
+
+#footerInfo {
+    width: 25vw;
+    height: 10vh;
+    margin-left: 50vw;
+    margin-top: -10vh;
+}
+
+#footerInfo p {
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 1vh;
+    color: #999;
+    width: max-content;
+    font-family: 'Amatic SC', cursive; 
+    letter-spacing: 1px;
+}
+
+#footerSocialLinks {
+    width: 25vw;
+    height: 10vh;
+    margin-left: 25vw;
+    border-right: 4px #999 solid;
+    border-radius: 2px;
+}
+
+#footerFixedLinks {
+    padding-top: 2vh;
+}
+
+#footerFacebook {
+    height: 5vh;
+    width: 5vh;
+    margin-left: 10vh;
+    background: url(../img/footerFacebook.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.3s;
+}
+
+#footerFacebook:hover {
+    background: url(../img/facebook.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.3s;
+}
+
+#footerTwitter {
+    height: 5vh;
+    width: 5vh;
+    margin-top: -5vh;
+    margin-left: 15vh;
+    background: url(../img/footerTwitter.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.3s;
+}
+
+#footerTwitter:hover {
+    background: url(../img/twitter.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.3s;
+}
+
+#footerInstagram {
+    height: 5vh;
+    width: 5vh;
+    margin-top: -5vh;
+    margin-left: 20vh;
+    background: url(../img/footerInstagram.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.3s;
+}
+
+#footerInstagram:hover {
+    background: url(../img/instagram.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.3s;
+}
+
+#footerVK {
+    height: 5vh;
+    width: 5vh;
+    margin-top: -5vh;
+    margin-left: 25vh;
+    background: url(../img/footerVk.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.3s;
+}
+
+#footerVK:hover {
+    background: url(../img/vk.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.3s;
+}
+
+#footerOD {
+    height: 5vh;
+    width: 5vh;
+    margin-top: -5vh;
+    margin-left: 30vh;
+    background: url(../img/footerOd.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.3s;
+}
+
+#footerOD:hover {
+    background: url(../img/od.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.3s;
+}
+
+#footerYandex {
+    height: 5vh;
+    width: 5vh;
+    margin-top: -5vh;
+    margin-left: 35vh;
+    background: url(../img/footerYandex.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.3s;
+}
+
+#footerYandex:hover {
+    background: url(../img/yandex.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.3s;
+}
+
+#footerMail {
+    height: 5vh;
+    width: 5vh;
+    margin-top: -5vh;
+    margin-left: 40vh;
+    background: url(../img/footerMail.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.3s;
+}
+
+#footerMail:hover {
+    background: url(../img/mail.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.3s;
+}
